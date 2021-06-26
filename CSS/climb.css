@@ -20,11 +20,11 @@ html, body {
 
 header {
 	width: 100%;
-	background-color: #e9f3f1;
+	background-color: #dfe7bc;
 	background-image: url(../images/header.png);
 	background-size: cover;
-	background-color: #e9f3f1;
-	border-top: 10px solid;
+	background-color: #dfe7bc;
+	border-top: #f2f7dc 5px solid;
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 	position: relative;
 	z-index: 10;
@@ -221,7 +221,7 @@ footer {
 	border: #dadada 1px solid;
 	border-radius: 0 0 10px 10px;
 	color: rgb(0, 0, 0);
-	font-size: 12px;
+	font-size: 14px;
 	text-align: right;
 }
 
@@ -327,7 +327,7 @@ pre {
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
-		border-top: #20567d 5px solid;
+		border-top: #f2f7dc 5px solid;
 	}
 	.header-contents {
 		min-height: 60px;
