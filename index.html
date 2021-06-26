@@ -18,6 +18,19 @@
   <meta property="og:url" content="https://katsu-climbing.site/">
   <meta property="og:site_name" content="ボルダリング部">
   <meta property="og:image" content="https://katsu-climbing.site/images/bb.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ボルダリング部">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+          .then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+    }
+    </script>
 </head>
 
 <body>
@@ -30,8 +43,9 @@
   </header>
   <div class="main-wrapper">
     <section>
-      <div style="text-align: center; padding: 10px; margin-bottom: 10px; border: 3px double #333333; background-color: #dff6fc;">
-        <p style="font-size: 25px; color: rgb(0, 77, 100); ">次回のボルダリングまで</p>
+      <div
+        style="text-align: center; padding: 10px; margin-bottom: 10px; border: 3px double #333333; background-color: #dff6fc;">
+        <p style="font-size: 22px; color: rgb(0, 77, 100); ">次回のボルダリングまで</p>
         <p class="timer"><span id="day"></span>日<span id="hour"></span>時間<span id="min"></span>分<span id="sec"></span>秒
         </p>
       </div>
@@ -39,7 +53,7 @@
       <a href="video/bb.mp4"><img class="video" src="images/bb.jpg" alt="オープニング"></a><br><br>
       <h2>道場課題７番</h2>
       <a href="video/b1.mp4"><img class="video" src="images/b1.png" alt="道場課題７番"></a><br><br>
-      
+
 
     </section>
   </div><!-- /.main-wrapper -->
