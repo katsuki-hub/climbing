@@ -62,7 +62,7 @@
         <!-- カレンダー -->
         <div id="mini-calendar"></div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-        <script src="scripts/calendar.js"></script>
+        <script src="scripts/jquery.minicalendar.js"></script>
       </div>
 
         <div
@@ -126,8 +126,15 @@
     }
     recalc();
   </script>
-  <script src="scripts/calendar.js"></script>
-  <script src="scripts/event.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script src="scripts/jquery.minicalendar.js"></script>
+  <script>
+  (function($) {
+    $(function() {
+      $('#mini-calendar').miniCalendar();
+    });
+  })(jQuery);
+  </script>
 </body>
 
 </html>
