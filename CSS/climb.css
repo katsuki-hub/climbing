@@ -264,6 +264,23 @@ a:hover {
 	text-align: center;
 }
 
+.frame {
+	text-align: center;
+	max-width: 578px;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: dotted 1px #333333;
+	background-color: seashell;
+}
+
+.frame2 {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px dashed #333333;
+	background-color: #f5f5e3;
+}
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
