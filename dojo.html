@@ -16,10 +16,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name=”robots” content=”noindex”>
-  <title>ボルダリング部</title>
-  <meta name="description" content="ボルダリング部の活動映像集ページです！">
+  <title>道場課題一覧</title>
+  <meta name="description" content="道場課題の一覧！">
   <link href="css/climb.css" rel="stylesheet" type="text/css">
-  <link href="css/calendar.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
@@ -51,59 +50,46 @@
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-contents">
-      <h1>ボルダリング部</h1>
-      <h2>動画視聴ができますよ！！</h2>
+      <h1>道場課題の一覧</h1>
+      <h2>課題写真！！</h2>
     </div><!-- /.header-contents -->
 
     <!-- グローバルナビ -->
     <nav>
       <ul>
-        <li><a class="current" href="index.html">HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="movie.html">動画一覧</a></li>
-        <li><a href="dojo.html">道場課題</a></li>
+        <li><a class="current" href="dojo.html">道場課題</a></li>
       </ul>
     </nav>
   </header>
+  <!-- パンくずリスト -->
+  <div id="bread">
+    <ol>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="dojo.html">道場</a></li>
+    </ol>
+  </div>
   <div class="main-wrapper">
-    <section>
-      <h1 data-en="Schedule">スケジュール</h1>
-      <!-- カレンダー -->
-      <div id="calendar"></div>
-      <!-- カウントダウン -->
-      <!--<div class="frame">
-        <p style="font-size: 22px; color: rgb(0, 77, 100); ">次回のボルダリング<br>6月29日(火)19時<br></p>
-        <p class="timer">あと<span id="day"></span>日<span id="hour"></span>時間<span id="min"></span>分<span
-            id="sec"></span>秒
-      </div></p>-->
-      <br><br><br>
-      <h2>道場課題の写真</h2><br>
-      <div
-        style="text-align: center; max-width: 578px; margin: 0 auto; padding: 10px; margin-bottom: 10px; border:dotted 1px #ffffff; background-color: rgb(175, 221, 175);">
-        <a href="dojotask.html"><b>6月4週目の道場課題の写真はこちらをクリック！！<br>全８課題</b></a>
-      </div><br><br><br>
-      <h2>新着動画</h2>
-      <h3>スラブ道場課題</h3>
-      <a href="video/b2.mp4"><img class="video" src="images/b2.png" alt="道場スラブ"></a><br><br><br>
-      <h3>マンスリー5番と6番</h3>
-      <a href="video/b3.mp4"><img class="video" src="images/b3.png" alt="マンスリー56"></a><br><br><br>
-      <div class="frame2">
-        新しい道場課題は動画編集が終わり次第、あげておきます！！
-      </div>
-
-      <h2>過去動画</h2>
-      <h3>ボルダリング部</h3>
-      <a href="video/bb.mp4"><img class="video" src="images/bb.jpg" alt="オープニング"></a><br><br><br>
-      <h3>マンスリー垂壁７番</h3>
-      <a href="video/b1.mp4"><img class="video" src="images/b1.png" alt="マンスリー７番"></a><br><br><br>
+    <article>
+      <section>
+        <h2>道場課題の写真一覧</h2>
+        <div id="dojolist">
+          <ul>
+            <li><a href="dojo/6_4.html">6月4週目の道場課題の写真</a></li>
+          </ul>
+        </div>
 
 
-    </section>
+
+      </section>
+    </article>
+  </div>
+
+
   </div><!-- /.main-wrapper -->
   <img src="images/b-top.png" width="100%" alt="ボルダリング部">
   <footer>ファッションセンター〇〇むら</footer>
-  <script src="scripts/countdown.js"></script>
-  <script src="scripts/calendar.js"></script>
-  <script src="scripts/event.js"></script>
 </body>
 
 </html>
