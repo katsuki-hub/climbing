@@ -407,6 +407,10 @@ a.more:active .more-top {
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px 1px 5px rgba(255, 255, 255, 0.3);
 }
 
+.page li {
+	display: inline;
+}
+
 .more-bottom {
 	position: absolute;
 	top: 38px;
