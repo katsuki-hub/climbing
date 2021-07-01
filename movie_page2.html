@@ -97,12 +97,28 @@
         <a href="video/bb.mp4"><img class="video" src="images/bb.jpg" alt="オープニング"></a><br><br><br>
       </section>
     </article>
-  </div>
-
+    <div class="list-group">
+      <div class="list-group-item"><a href="movie.html"></a></div>
+      <div class="list-group-item"><a href="movie_page2.html"></a></div>
+      <div class="list-group-item"> Your Item 3</div>
+    </div>
 
   </div><!-- /.main-wrapper -->
   <img src="images/b-top.png" width="100%" alt="ボルダリング部">
   <footer>ファッションセンター〇〇むら</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/paginathing.min.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $('.list-group').paginathing({
+        perPage: 4,
+        firstLast: false,
+        prevText: 'prev',
+        nextText: 'next',
+        activeClass: 'active',
+      })
+    });
+  </script>
 </body>
 
 </html>
