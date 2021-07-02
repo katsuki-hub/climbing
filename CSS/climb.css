@@ -298,15 +298,14 @@ a:hover {
 	text-align: center;
 	max-width: 578px;
 	margin: 0 auto;
-	padding: 10px;
-	margin-bottom: 10px;
+	padding: 0;
 	border: dotted 1px #333333;
 	background-color: seashell;
 }
 
 .frame2 {
-	padding: 10px;
-	margin-bottom: 10px;
+	padding: 0;
+	margin: 10px;
 	border: 1px dashed #333333;
 	background-color: #f5f5e3;
 }
@@ -407,10 +406,6 @@ a.more:active .more-top {
 	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px 1px 5px rgba(255, 255, 255, 0.3);
 }
 
-.page li {
-	display: inline;
-}
-
 .more-bottom {
 	position: absolute;
 	top: 38px;
@@ -423,6 +418,53 @@ a.more:active .more-top {
 	background-image: linear-gradient( to right, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
 	-webkit-box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.page {
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+	background: rgba(31, 26, 43, 0.5);
+}
+
+.page li {
+	display: inline;
+	border-radius: 100%;
+}
+
+.active {
+	background: gold;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.another {
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.move {
+	background: #fff;
+	width: 25px;
+	height: 40px;
+	margin: 2px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.page li a:hover {
+	background: gold;
+	border-radius: 100%;
 }
 
 @media (max-width: 600px) {
