@@ -9,7 +9,7 @@ var countdown = function (due) {
   return count;
 }
 
-var goal = new Date(2021, 6, 4, 12);
+var goal = new Date(2021, 6, 6, 19);
 
 var recalc = function () {
   var counter = countdown(goal);
