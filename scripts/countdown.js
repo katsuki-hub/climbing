@@ -10,6 +10,9 @@ var countdown = function (due) {
 }
 
 var goal = new Date(2021, 6, 6, 19);
+if (new Date() > new Date(2021, 6, 6, 19)) {
+  var goal = new Date(2021, 6, 10, 10);
+}
 
 var recalc = function () {
   var counter = countdown(goal);
