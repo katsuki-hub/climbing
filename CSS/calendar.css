@@ -1,5 +1,5 @@
 .cld-main {
-  background-color: seashell;
+  background-color: rgba(252, 240, 232, 0.9);
   height: 400px;
 }
 
@@ -64,8 +64,9 @@
 }
 
 .cld-day.today .cld-number {
-  background: #ff99f1;
-  color: #0080FF;
+  background: #ffcece;
+  color: #ff7300;
+  font-weight: bold;
 }
 
 .cld-day.disableDay {
