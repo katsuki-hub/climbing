@@ -1,4 +1,6 @@
 .cld-main {
+  max-width: 600px;
+  margin: auto;
   background-color: rgba(252, 240, 232, 0.9);
   height: 400px;
 }
