@@ -41,6 +41,29 @@
         });
     }
   </script>
+  <style>
+    section img {
+      max-width: 100%;
+    }
+
+    .img {
+      margin: 0 auto 0 auto;
+      width: 100%;
+    }
+
+    .img ul {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .img li {
+      float: left;
+      margin-right: 1%;
+      width: 19%;
+    }
+  </style>
 </head>
 
 <body>
@@ -80,11 +103,32 @@
             <li><a href="dojo/6_4.html">6月4週目の道場課題の写真</a></li>
           </ul>
         </div>
-        
+        <!-- 写真 -->
+        <div class="img">
+          <div>
+            <img src="images/b1.png" id="bigimg">
+          </div>
+          <ul>
+            <li><img src="images/b1.png" class="thumb" data-image="images/b1.png"></li>
+            <li><img src="images/b3.png" class="thumb" data-image="images/b3.png"></li>
+            <li><img src="images/b4.jpg" class="thumb" data-image="images/b4.jpg"></li>
+            <li><img src="images/b5.jpg" class="thumb" data-image="images/b5.jpg"></li>
+            <li><img src="images/b6.jpg" class="thumb" data-image="images/b6.jpg"></li>
+          </ul>
+        </div>
+
       </section>
     </article>
   </div><!-- /.main-wrapper -->
   <footer>ファッションセンター〇〇むら</footer>
+  <script>
+    var thumbs = document.querySelectorAll(".thumb");
+    for (var i = 0; i < thumbs.length; i++) {
+      thumbs[i].onclick = function () {
+        document.getElementById("bigimg").src = this.dataset.image;
+      };
+    }
+  </script>
 </body>
 
 </html>
