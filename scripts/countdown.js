@@ -9,9 +9,15 @@ var countdown = function (due) {
   return count;
 }
 
-var goal = new Date(2021, 6, 10, 19);
-if (new Date() > new Date(2021, 6, 10, 19)) {
-  var goal = new Date(2021, 6, 13, 19);
+var goal = new Date(2021, 6, 13, 19);
+if (new Date() > new Date(2021, 6, 13, 19)) {
+  var goal = new Date(2021, 6, 17, 19);
+  if (new Date() > new Date(2021, 6, 17, 19)) {
+    var goal = new Date(2021, 6, 20, 19);
+  }
+  if (new Date() > new Date(2021, 6, 20, 19)) {
+    var goal = new Date(2021, 6, 25, 10);
+  }
 }
 
 var recalc = function () {
