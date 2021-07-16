@@ -176,9 +176,11 @@ h3 {
 	height: 25px;
 	margin-left: 30px;
 	margin-bottom: 0;
-	padding: 1rem 2rem 1rem 3rem;
+	padding: 1rem 0.5rem 1rem 1rem;
 	color: #fff;
 	background: #33899e;
+	text-align: center;
+	font-size: 15px;
 }
 
 h3:before {
@@ -280,7 +282,6 @@ a:hover {
 
 .video {
 	width: 100%;
-	text-align: center;
 }
 
 .topimg {
@@ -488,5 +489,12 @@ a.more:active .more-top {
 	.main-wrapper {
 		font-size: 16px;
 		line-height: 1.5em;
+	}
+}
+
+@media (min-width: 600px) {
+	.column {
+		margin: auto;
+		width: 60%;
 	}
 }
