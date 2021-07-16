@@ -494,7 +494,11 @@ a.more:active .more-top {
 
 @media (min-width: 600px) {
 	.column {
-		margin: auto;
-		width: 60%;
+		display: flex;
+	}
+	.v2 {
+		flex-wrap: wrap;
+		width: 45%;
+		margin: 10px;
 	}
 }
