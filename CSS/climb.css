@@ -478,7 +478,7 @@ ul.gim {
 	counter-reset: li;
 	padding: 0.5em 0.5em 0.5em 2em;
 	font: 14px/1.6 'arial narrow', sans-serif;
-	width: 75%;
+	width: 90%;
 	margin: 30px auto;
 	list-style: none;
 	background-color: rgba(182, 223, 226, 0.3);
@@ -544,13 +544,10 @@ ul.gim {
 	}
 	.gim li {
 		font-size: 15px;
+		padding: 5px 4px 10px 30px;
 	}
 	.gim img {
 		width: 35px;
-	}
-	ul.gim {
-		width: 90%;
-		
 	}
 }
 
