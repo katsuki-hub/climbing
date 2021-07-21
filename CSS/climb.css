@@ -481,17 +481,17 @@ ul.gim {
 	width: 75%;
 	margin: 30px auto;
 	list-style: none;
-	background-color: #d5e0eb63;
+	background-color: rgba(182, 223, 226, 0.3);
 	
   }
   .gim li{
 	position: relative;
 	padding: 5px 4px 10px 60px;
 	margin: auto;
-	border-bottom: 4px dashed rgb(118, 128, 117);
+	border-bottom: 4px dashed rgb(128, 117, 126);
 	font-size: 20px;
 	font-weight: bold;
-	color: #333;
+	color: rgb(51, 51, 51);
   }
    
   .gim li:before{
@@ -542,6 +542,10 @@ ul.gim {
 		font-size: 16px;
 		line-height: 1.5em;
 	}
+
+	.gim li{
+		font-size: 16px;
+	  }
 }
 
 @media (min-width: 600px) {
