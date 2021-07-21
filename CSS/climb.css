@@ -468,6 +468,58 @@ a.more:active .more-top {
 	margin: 0 auto;
 }
 
+.gim img {
+	width: 40px;
+	float: right;
+	margin-right: 10px;
+}
+
+ul.gim {
+	counter-reset:li;
+	padding: 0.5em 0.5em 0.5em 2em;
+	font: 14px/1.6 'arial narrow', sans-serif;
+	width: 75%;
+	margin: 30px auto;
+	list-style: none;
+	background-color: #d5e0eb63;
+	
+  }
+  .gim li{
+	position: relative;
+	padding: 5px 4px 10px 60px;
+	margin: auto;
+	border-bottom: 4px dashed rgb(118, 128, 117);
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+  }
+   
+  .gim li:before{
+	counter-increment: li;
+	content: counter(li);
+	position: absolute;    
+	z-index: -1;
+	left: -5px;
+	top: 5px;
+	background: #00b62d;
+	height: 1.5em;
+	width: 1.5em;
+	border: .1em solid rgba(0,0,0,.05);
+	text-align: center;
+	font: italic bold 1em/1.3em Georgia, Serif;
+	color: blue;
+	border-radius: 1.5em;
+	transition: all .2s ease-out;
+  }
+   
+  .gim li:hover:before{
+	background-color: #ffd797;
+	border-color: rgba(0,0,0,.08);
+	border-width: .2em;
+	color: #444;
+	transform: scale(1.5);
+  }
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
