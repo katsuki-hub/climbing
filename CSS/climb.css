@@ -469,15 +469,15 @@ a.more:active .more-top {
 }
 
 .gim img {
-	width: 40px;
+	width: 35px;
 	float: right;
-	margin-right: 10px;
+	margin: 0 8px 5px 0;
 }
 
 ul.gim {
 	counter-reset: li;
 	padding: 0.5em 0.5em 0.5em 2em;
-	font: 14px/1.6 'arial narrow', sans-serif;
+	font-family: "fantasy", "Chick";
 	width: 90%;
 	margin: 30px auto;
 	list-style: none;
@@ -547,7 +547,7 @@ ul.gim {
 		padding: 5px 4px 10px 30px;
 	}
 	.gim img {
-		width: 35px;
+		width: 32px;
 	}
 }
 
