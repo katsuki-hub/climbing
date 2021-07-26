@@ -553,6 +553,19 @@ ul.gim {
 	transform: scale(1.5);
 }
 
+.v2 {
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.v2 img {
+	transition-duration: 0.4s;
+}
+
+.v2 img:hover{
+  transform:scale(1.1);
+}
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
