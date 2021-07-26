@@ -23,6 +23,38 @@ body {
 	min-height: calc(100% - 200px);
 }
 
+.main-video {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 3px;
+	background-color: rgba(255, 255, 255, 0.33);
+	border-left: #dadada 1px solid;
+	border-right: #dadadab6 1px solid;
+	min-height: 80%;
+	min-height: calc(100% - 200px);
+}
+
+.main-video .column {
+	display: flex;
+}
+
+.main-video .v2 {
+	flex-wrap: wrap;
+	width: 45%;
+	margin: 15px;
+}
+
+.main-video p {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	margin-top: -7px;
+}
+
 html, body {
 	height: 100%;
 }
@@ -155,6 +187,7 @@ section h1::before {
 section h2 {
 	position: relative;
 	text-align: center;
+	margin: 10px;
 	padding: 1rem 2rem calc(1rem + 10px);
 	background: #fff100;
 	margin-bottom: 3px;
