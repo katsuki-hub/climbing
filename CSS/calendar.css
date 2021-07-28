@@ -4,7 +4,7 @@
   max-width: 600px;
   margin: auto;
   background-color: rgba(252, 240, 232, 0.9);
-  height: 390px;
+  height: 325px;
 }
 
 .cld-main svg {
@@ -84,7 +84,7 @@
 .cld-number {
   position: relative;
   margin: 0;
-  padding: 10px;
+  padding: 4px;
 }
 
 .cld-title {
@@ -130,4 +130,10 @@
 
 .today .cld-number.eventday:hover {
   background: #ff7979;
+}
+
+@media (max-width: 600px) {
+  .cld-main {
+    height: 315px;
+  }
 }

@@ -23,6 +23,50 @@ body {
 	min-height: calc(100% - 200px);
 }
 
+.main-video {
+	position: relative;
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 3px;
+	background-color: rgba(255, 255, 255, 0.33);
+	border-left: #dadada 1px solid;
+	border-right: #dadadab6 1px solid;
+	min-height: 80%;
+	min-height: calc(100% - 200px);
+}
+
+.v2 {
+	overflow: hidden;
+}
+
+.main-video .column {
+	display: flex;
+}
+
+.v2 img {
+	transition-duration: 0.4s;
+}
+
+.main-video .v2 {
+	flex-wrap: wrap;
+	width: 50%;
+	margin: 4px;
+}
+
+.v2 img:hover {
+	transform: scale(1.04);
+}
+
+.main-video p {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	margin-top: -7px;
+}
+
 html, body {
 	height: 100%;
 }
@@ -68,9 +112,9 @@ header {
 nav ul {
 	display: table;
 	margin: 0 auto;
-	padding: 0;
+	padding: 8px;
 	width: 100%;
-	font-size: 17px;
+	font-size: 18px;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.555);
 }
@@ -155,6 +199,7 @@ section h1::before {
 section h2 {
 	position: relative;
 	text-align: center;
+	margin: 10px;
 	padding: 1rem 2rem calc(1rem + 10px);
 	background: #fff100;
 	margin-bottom: 3px;
@@ -468,6 +513,58 @@ a.more:active .more-top {
 	margin: 0 auto;
 }
 
+.gim img {
+	width: 35px;
+	float: right;
+	margin: 0 8px 5px 0;
+}
+
+ul.gim {
+	counter-reset: li;
+	padding: 0.5em 0.5em 0.5em 2em;
+	font-family: "fantasy", "Chick";
+	width: 90%;
+	margin: 30px auto;
+	list-style: none;
+	background-color: rgba(182, 223, 226, 0.3);
+}
+
+.gim li {
+	position: relative;
+	padding: 5px 4px 10px 60px;
+	margin: auto;
+	border-bottom: 4px dashed rgb(128, 117, 126);
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+}
+
+.gim li:before {
+	counter-increment: li;
+	content: counter(li);
+	position: absolute;
+	z-index: -1;
+	left: -5px;
+	top: 5px;
+	background: #00b62d;
+	height: 1.5em;
+	width: 1.5em;
+	border: .1em solid rgba(0, 0, 0, .05);
+	text-align: center;
+	font: italic bold 1em/1.3em Georgia, Serif;
+	color: blue;
+	border-radius: 1.5em;
+	transition: all .2s ease-out;
+}
+
+.gim li:hover:before {
+	background-color: #ffd797;
+	border-color: rgba(0, 0, 0, .08);
+	border-width: .2em;
+	color: #444;
+	transform: scale(1.5);
+}
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
@@ -490,6 +587,25 @@ a.more:active .more-top {
 		font-size: 16px;
 		line-height: 1.5em;
 	}
+	.gim li {
+		font-size: 15px;
+		padding: 5px 4px 10px 30px;
+	}
+	.gim img {
+		width: 32px;
+	}
+	h3 {
+		position: relative;
+		display: inline-block;
+		height: 25px;
+		margin-left: 30px;
+		margin-bottom: 0;
+		padding: 1rem 0.5rem 1rem 1rem;
+		color: #fff;
+		background: #33899e;
+		text-align: center;
+		font-size: 11px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -498,7 +614,7 @@ a.more:active .more-top {
 	}
 	.v2 {
 		flex-wrap: wrap;
-		width: 45%;
+		width: 50%;
 		margin: 15px;
 	}
 }
