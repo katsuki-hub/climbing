@@ -1,4 +1,4 @@
-AuthUserFile /home/users/2/main.jp-6775f33d59c879fe/web/video/.htpasswd
+AuthUserFile home/users/2/main.jp-6775f33d59c879fe/web/video/.htpasswd
 AuthGroupFile /dev/null
 AuthName "ボルダリング部"
 AuthType Basic
