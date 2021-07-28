@@ -1,0 +1,7 @@
+AuthUserFile https://katsu-climbing/video/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+require valid-user
+<Files ~ “^.(htpasswd|htaccess)$”>
+deny from all
+</Files>
