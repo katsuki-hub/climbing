@@ -109,14 +109,10 @@ header {
 	text-shadow: 2px 2px 2px rgb(255, 0, 0);
 }
 
-nav {
-	max-width: 948px;
-}
-
 nav ul {
 	display: table;
 	margin: 0 auto;
-	padding: 6px;
+	padding: 0;
 	width: 100%;
 	font-size: 18px;
 	text-align: center;
