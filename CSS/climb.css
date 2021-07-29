@@ -110,7 +110,7 @@ header {
 }
 
 nav ul {
-	display: table;
+	display: flex;
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
@@ -120,8 +120,9 @@ nav ul {
 }
 
 nav ul li {
-	display: table-cell;
 	position: relative;
+	flex: 1 1;
+	display: table-cell;
 }
 
 nav ul li a {
