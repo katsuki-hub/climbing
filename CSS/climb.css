@@ -534,7 +534,7 @@ section.link h2:before {
 
 ul.gim {
 	counter-reset: li;
-	padding: 0.5em 0.5em 0.5em 2em;
+	padding: 0.8em 0.5em 0.8em 2em;
 	font-family: "fantasy", "Chick";
 	width: 75%;
 	margin: 30px auto;
