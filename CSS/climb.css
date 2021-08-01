@@ -534,7 +534,7 @@ section.link h2:before {
 
 ul.gim {
 	counter-reset: li;
-	padding: 0.8em 0.5em 0.8em 2em;
+	padding: 0.6em 0.5em 0.6em 2em;
 	font-family: "fantasy", "Chick";
 	width: 75%;
 	margin: 30px auto;
@@ -544,7 +544,7 @@ ul.gim {
 
 .gim li {
 	position: relative;
-	padding: 5px 4px 10px 60px;
+	padding: 10px 4px 10px 60px;
 	margin: auto;
 	border-bottom: 4px dashed rgb(128, 117, 126);
 	font-size: 18px;
@@ -611,7 +611,7 @@ ul.gim {
 	}
 	.gim li {
 		font-size: 15px;
-		padding: 5px 4px 10px 30px;
+		padding: 10px 4px 10px 30px;
 	}
 	.gim img {
 		width: 32px;
