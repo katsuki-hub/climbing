@@ -2,6 +2,7 @@
 /* CSS Document */
 
 body {
+	min-width: 280px;
 	background-image: url(../images/bg.png);
 	background-size: contain;
 	background-attachment: fixed;
@@ -513,6 +514,7 @@ a.more:active .more-top {
 }
 
 section.link {
+	min-width: 280px;
 	margin: 0 -31px;
 	padding: 0.1em;
 	background-color: black;
@@ -527,9 +529,10 @@ section.link h2:before {
 }
 
 .gim img {
-	width: 32px;
+	display: block;
+	width: 28px;
 	float: right;
-	margin: 0 8px 5px 0;
+	margin: auto;
 }
 
 ul.gim {
@@ -613,9 +616,6 @@ ul.gim {
 		font-size: 15px;
 		padding: 10px 4px 10px 30px;
 	}
-	.gim img {
-		width: 32px;
-	}
 	h3 {
 		position: relative;
 		display: inline-block;
@@ -634,7 +634,6 @@ ul.gim {
 }
 
 /*600px以上は2カラム指定*/
-
 @media (min-width: 600px) {
 	.column {
 		display: flex;
