@@ -591,17 +591,16 @@ ul.gim {
 }
 
 .newsimg {
-	
 	background-image: url(../images/2020tokyo.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: -30px
+	margin: -30px;
 }
 
 .newsback {
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .news {
@@ -613,6 +612,11 @@ ul.gim {
 	margin-bottom: 60px;
 	font-weight: bold;
 	font-size: 12px;
+	background-color: aliceblue;
+}
+
+.blank {
+	height: 300px;
 }
 
 @media (max-width: 600px) {
