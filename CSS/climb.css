@@ -595,7 +595,7 @@ ul.gim {
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position:bottom;
 	margin: -30px;
 }
 
