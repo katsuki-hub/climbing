@@ -199,8 +199,8 @@ section h1::before {
 section h2 {
 	position: relative;
 	text-align: center;
-	margin: 10px;
-	padding: 1rem 2rem calc(1rem + 10px);
+	margin: 15px;
+	padding: 0.5rem 0.5rem calc(0.5rem + 3px);
 	background: #fff100;
 	margin-bottom: 3px;
 }
@@ -212,7 +212,7 @@ section h2:before {
 	width: 99%;
 	height: 90%;
 	content: '';
-	border: 4px solid #000;
+	border: 5px solid #000;
 }
 
 h3 {
@@ -590,6 +590,31 @@ ul.gim {
 	transform: scale(1.2);
 }
 
+.newsimg {
+	background-image: url(../images/2020tokyo.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -30px;
+	
+}
+
+.newsback {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.news {
+	margin: 30px;
+}
+
+.news table {
+	margin: auto;
+	margin-bottom: 60px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
@@ -634,6 +659,7 @@ ul.gim {
 }
 
 /*600px以上は2カラム指定*/
+
 @media (min-width: 600px) {
 	.column {
 		display: flex;
