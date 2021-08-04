@@ -591,7 +591,7 @@ ul.gim {
 }
 
 .newsimg {
-	background-image: url(../images/2020tokyo.jpg);
+	background-image: url(../images/yosennarasaki02.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -616,7 +616,7 @@ ul.gim {
 }
 
 .blank {
-	height: 300px;
+	height: 350px;
 }
 
 @media (max-width: 600px) {
