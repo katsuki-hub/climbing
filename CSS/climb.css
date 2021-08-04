@@ -591,13 +591,13 @@ ul.gim {
 }
 
 .newsimg {
+	
 	background-image: url(../images/2020tokyo.jpg);
 	background-size: 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-	margin: -30px;
-	
+	margin: -30px
 }
 
 .newsback {
@@ -612,7 +612,7 @@ ul.gim {
 	margin: auto;
 	margin-bottom: 60px;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 @media (max-width: 600px) {
