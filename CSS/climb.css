@@ -590,19 +590,6 @@ ul.gim {
 	transform: scale(1.2);
 }
 
-.newsimg {
-	background-image: url(../images/yosennarasaki02.jpg);
-	background-size: 100%;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: -30px;
-}
-
-.newsback {
-	background-color: rgba(255, 255, 255, 0.1);
-}
-
 .news {
 	margin: 30px;
 }
@@ -617,6 +604,10 @@ ul.gim {
 
 .blank {
 	height: 350px;
+}
+
+.blank {
+	height: 200px;
 }
 
 @media (max-width: 600px) {
@@ -672,5 +663,39 @@ ul.gim {
 		flex-wrap: wrap;
 		width: 50%;
 		margin: 15px;
+	}
+}
+
+/*タブレット以上指定*/
+
+@media (min-width: 769px) {
+	.newsimgpc {
+		background-image: url(../images/2020tokyopc.jpg);
+		background-size: 960px;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+}
+
+/*タブレットx以下指定*/
+
+@media (max-width: 768px) {
+	.newsimg {
+		background-image: url(../images/narahara.jpg);
+		background-size: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+	.newsimg2 {
+		background-image: url(../images/nogunona.jpg);
+		background-size: 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
 	}
 }
