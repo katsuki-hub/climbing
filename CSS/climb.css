@@ -610,6 +610,17 @@ ul.gim {
 	height: 200px;
 }
 
+.face {
+	display: flex;
+	text-align: center;
+}
+
+.face img {
+	flex-wrap: wrap;
+	width: 25%;
+	margin: -4px -3px;
+}
+
 @media (max-width: 600px) {
 	header {
 		background-position: 32% 50%;
