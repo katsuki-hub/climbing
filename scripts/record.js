@@ -55,7 +55,7 @@ for (var i = 0; i < mq8.length; i++) {
 }
 
 
-var wq1 = ["1", "ヤンヤ・ガルンブレト", "スロベニア", "14.00", "1.00", "4.00", "56.00"];
+var wq1 = ["1", "ヤンヤ・ガンブレット", "スロベニア", "14.00", "1.00", "4.00", "56.00"];
 for (var i = 0; i < wq1.length; i++) {
   var td = document.createElement("td");
   td.textContent = wq1[i];
