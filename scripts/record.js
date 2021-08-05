@@ -1,4 +1,4 @@
-var mq1 = ["1", "ミケル・マウェム", "フランス", "3.00", "1.00", "11.00", "33.00"];
+var mq1 = ["1", "ミカエル・マウェム", "フランス", "3.00", "1.00", "11.00", "33.00"];
 for (var i = 0; i < mq1.length; i++) {
   var td = document.createElement("td");
   td.textContent = mq1[i];
@@ -19,7 +19,7 @@ for (var i = 0; i < mq3.length; i++) {
   document.getElementById("mq3").appendChild(td);
 }
 
-var mq4 = ["4", "ヤコプ・シューベルト", "オーストリア", "12.00", "7.00", "1.00", "84.00"];
+var mq4 = ["4", "ヤコブ・シューベルト", "オーストリア", "12.00", "7.00", "1.00", "84.00"];
 for (var i = 0; i < mq4.length; i++) {
   var td = document.createElement("td");
   td.textContent = mq4[i];
@@ -40,7 +40,7 @@ for (var i = 0; i < mq6.length; i++) {
   document.getElementById("mq6").appendChild(td);
 }
 
-var mq7 = ["7", "バサ・マウェム", "フランス", "1.00", "18.00", "20.00", "360.00"];
+var mq7 = ["7", "バッサ・マウェム", "フランス", "1.00", "18.00", "20.00", "360.00"];
 for (var i = 0; i < mq7.length; i++) {
   var td = document.createElement("td");
   td.textContent = mq7[i];
@@ -62,7 +62,7 @@ for (var i = 0; i < wq1.length; i++) {
   document.getElementById("wq1").appendChild(td);
 }
 
-var wq2 = ["2", "徐　采鉉", "韓国", "17.00", "5.00", "1.00", "85.00"];
+var wq2 = ["2", "ソ・チェヒョン", "韓国", "17.00", "5.00", "1.00", "85.00"];
 for (var i = 0; i < wq2.length; i++) {
   var td = document.createElement("td");
   td.textContent = wq2[i];
@@ -97,16 +97,72 @@ for (var i = 0; i < wq6.length; i++) {
   document.getElementById("wq6").appendChild(td);
 }
 
-var wq7 = ["7", "アレクサンドラ・ミロスワフ", "ポーランド", "1.00", "20.00", "19.00", "380.00"];
+var wq7 = ["7", "アレクサンドラ・ミロスラフ", "ポーランド", "1.00", "20.00", "19.00", "380.00"];
 for (var i = 0; i < wq7.length; i++) {
   var td = document.createElement("td");
   td.textContent = wq7[i];
   document.getElementById("wq7").appendChild(td);
 }
 
-var wq8 = ["8", "アヌク・ジョベール", "フランス", "2.00", "13.00", "15.00", "390.00"];
+var wq8 = ["8", "アヌーク・ジョベール", "フランス", "2.00", "13.00", "15.00", "390.00"];
 for (var i = 0; i < wq8.length; i++) {
   var td = document.createElement("td");
   td.textContent = wq8[i];
   document.getElementById("wq8").appendChild(td);
+}
+
+var mf1 = ["金", "アルベルト・ヒネスロペス", "スペイン", "1.00", "7.00", "4.00", "28.00"];
+for (var i = 0; i < mf1.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf1[i];
+  document.getElementById("mf1").appendChild(td);
+}
+
+var mf2 = ["銀", "ナサニエル・コールマン", "アメリカ", "6.00", "1.00", "5.00", "30.00"];
+for (var i = 0; i < mf2.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf2[i];
+  document.getElementById("mf2").appendChild(td);
+}
+
+var mf3 = ["銅", "ヤコブ・シューベルト", "オーストリア", "7.00", "5.00", "1.00", "35.00"];
+for (var i = 0; i < mf3.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf3[i];
+  document.getElementById("mf3").appendChild(td);
+}
+
+var mf4 = ["4", "楢崎　智亜", "日本", "2.00", "3.00", "6.00", "36.00"];
+for (var i = 0; i < mf4.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf4[i];
+  document.getElementById("mf4").appendChild(td);
+}
+
+var mf5 = ["5", "ミカエル・マウェム", "フランス", "3.00", "2.00", "7.00", "42.00"];
+for (var i = 0; i < mf5.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf5[i];
+  document.getElementById("mf5").appendChild(td);
+}
+
+var mf6 = ["6", "アダム・オンドラ", "チェコ", "4.00", "6.00", "2.00", "48.00"];
+for (var i = 0; i < mf6.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf6[i];
+  document.getElementById("mf6").appendChild(td);
+}
+
+var mf7 = ["7", "コリン・ダフィー", "アメリカ", "5.00", "4.00", "3.00", "60.00"];
+for (var i = 0; i < mf7.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf7[i];
+  document.getElementById("mf7").appendChild(td);
+}
+
+var mf8 = ["8", "バッサ・マウェム", "フランス", "-", "-", "-", "棄権"];
+for (var i = 0; i < mf8.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = mf8[i];
+  document.getElementById("mf8").appendChild(td);
 }
