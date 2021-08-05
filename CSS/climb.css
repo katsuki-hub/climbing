@@ -618,7 +618,8 @@ ul.gim {
 .face img {
 	flex-wrap: wrap;
 	width: 25%;
-	margin: -4px -3px;
+	margin: 0 -3px;
+	margin-bottom: -8px;
 }
 
 @media (max-width: 600px) {
