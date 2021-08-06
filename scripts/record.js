@@ -170,56 +170,56 @@ for (var i = 0; i < mf8.length; i++) {
 }
 
 /*女子決勝*/
-var wf1 = ["金", "", "", ".00", ".00", ".00", ".00"];
+var wf1 = ["金", "ヤンヤ・ガルンブレト", "スロベニア", "5.00", "1.00", "1.00", "5.00"];
 for (var i = 0; i < wf1.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf1[i];
   document.getElementById("wf1").appendChild(td);
 }
 
-var wf2 = ["銀", "", "", ".00", ".00", ".00", ".00"];
+var wf2 = ["銀", "野中　生萌", "日本", "3.00", "3.00", "5.00", "45.00"];
 for (var i = 0; i < wf2.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf2[i];
   document.getElementById("wf2").appendChild(td);
 }
 
-var wf3 = ["銅", "", "", ".00", ".00", ".00", ".00"];
+var wf3 = ["銅", "野口　啓代", "日本", "4.00", "4.00", "4.00", "64.00"];
 for (var i = 0; i < wf3.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf3[i];
   document.getElementById("wf3").appendChild(td);
 }
 
-var wf4 = ["4", "", "", ".00", ".00", ".00", ".00"];
+var wf4 = ["4", "アレクサンドラ・ミロスラフ", "ポーランド", "1.00", "8.00", "8.00", "64.00"];
 for (var i = 0; i < wf4.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf4[i];
   document.getElementById("wf4").appendChild(td);
 }
 
-var wf5 = ["5", "", "", ".00", ".00", ".00", ".00"];
+var wf5 = ["5", "ブルック・ラバトゥ", "アメリカ", "7.00", "2.00", "6.00", "84.00"];
 for (var i = 0; i < wf5.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf5[i];
   document.getElementById("wf5").appendChild(td);
 }
 
-var wf6 = ["6", "", "", ".00", ".00", ".00", ".00"];
+var wf6 = ["6", "アヌーク・ジョベール", "フランス", "2.00", "6.00", "7.00", "84.00"];
 for (var i = 0; i < wf6.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf6[i];
   document.getElementById("wf6").appendChild(td);
 }
 
-var wf7 = ["7", "", "", ".00", ".00", ".00", ".00"];
+var wf7 = ["7", "ジェシカ・ピルツ", "オーストリア", "6.00", "5.00", "3.00", "90.00"];
 for (var i = 0; i < wf7.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf7[i];
   document.getElementById("wf7").appendChild(td);
 }
 
-var wf8 = ["8", "", "", ".00", ".00", ".00", ".00"];
+var wf8 = ["8", "ソ・チェヒョン", "韓国", "8.00", "7.00", "2.00", "112.00"];
 for (var i = 0; i < wf8.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf8[i];
