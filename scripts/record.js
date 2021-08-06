@@ -1,3 +1,4 @@
+/*男子予選*/
 var mq1 = ["1", "ミカエル・マウェム", "フランス", "3.00", "1.00", "11.00", "33.00"];
 for (var i = 0; i < mq1.length; i++) {
   var td = document.createElement("td");
@@ -54,7 +55,7 @@ for (var i = 0; i < mq8.length; i++) {
   document.getElementById("mq8").appendChild(td);
 }
 
-
+/*女子予選*/
 var wq1 = ["1", "ヤンヤ・ガンブレット", "スロベニア", "14.00", "1.00", "4.00", "56.00"];
 for (var i = 0; i < wq1.length; i++) {
   var td = document.createElement("td");
@@ -111,6 +112,7 @@ for (var i = 0; i < wq8.length; i++) {
   document.getElementById("wq8").appendChild(td);
 }
 
+/*男子決勝*/
 var mf1 = ["金", "アルベルト・ヒネスロペス", "スペイン", "1.00", "7.00", "4.00", "28.00"];
 for (var i = 0; i < mf1.length; i++) {
   var td = document.createElement("td");
@@ -165,4 +167,61 @@ for (var i = 0; i < mf8.length; i++) {
   var td = document.createElement("td");
   td.textContent = mf8[i];
   document.getElementById("mf8").appendChild(td);
+}
+
+/*女子決勝*/
+var wf1 = ["金", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf1.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf1[i];
+  document.getElementById("wf1").appendChild(td);
+}
+
+var wf2 = ["銀", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf2.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf2[i];
+  document.getElementById("wf2").appendChild(td);
+}
+
+var wf3 = ["銅", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf3.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf3[i];
+  document.getElementById("wf3").appendChild(td);
+}
+
+var wf4 = ["4", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf4.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf4[i];
+  document.getElementById("wf4").appendChild(td);
+}
+
+var wf5 = ["5", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf5.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf5[i];
+  document.getElementById("wf5").appendChild(td);
+}
+
+var wf6 = ["6", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf6.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf6[i];
+  document.getElementById("wf6").appendChild(td);
+}
+
+var wf7 = ["7", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf7.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf7[i];
+  document.getElementById("wf7").appendChild(td);
+}
+
+var wf8 = ["8", "", "", ".00", ".00", ".00", ".00"];
+for (var i = 0; i < wf8.length; i++) {
+  var td = document.createElement("td");
+  td.textContent = wf8[i];
+  document.getElementById("wf8").appendChild(td);
 }
