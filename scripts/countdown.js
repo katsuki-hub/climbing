@@ -9,12 +9,9 @@ var countdown = function (due) {
   return count;
 }
 
-var goal = new Date(2021, 7, 4, 17); {
-  if (new Date() > new Date(2021, 7, 4, 17)) {
-    var goal = new Date(2021, 7, 5, 17, 30);
-  }
-  if (new Date() > new Date(2021, 7, 5, 17, 30)) {
-    var goal = new Date(2021, 7, 6, 17, 30);
+var goal = new Date(2022, 0, 1,); {
+  if (new Date() > new Date(2022, 0, 1, 0)) {
+    var goal = new Date(2023, 0, 1, 0,);
   }
 }
 
