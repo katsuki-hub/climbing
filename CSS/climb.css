@@ -707,7 +707,7 @@ ul.gim {
 @media (max-width: 768px) {
 	.newsimg {
 		background-image: url(../images/narahara.jpg);
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -715,10 +715,16 @@ ul.gim {
 	}
 	.newsimg2 {
 		background-image: url(../images/nogunona.jpg);
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin: -31px;
+	}
+	.news tr {
+		font-size: 10px;
+	}
+	.gim a {
+		font-size: 14px;
 	}
 }
