@@ -295,26 +295,94 @@ ul {
 	font-weight: bold;
 }
 
+/*=====================
+#NEWS
+=====================*/
+
+.newstab {
+	width: 100%;
+	max-width: 960px;
+	margin: 30px auto;
+}
+
+.tab {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	list-style: none;
+	background: #fff;
+	border-top: solid;
+	border-left: solid;
+	border-right: solid;
+	font-weight: bold;
+}
+
+.tab li a {
+	display: block;
+	background: #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.tab li.active a {
+	background: rgba(9, 80, 0, 0.7);
+	color: #fff;
+	font-weight: bold;
+}
+
+.area {
+	display: none;
+	opacity: 0;
+	background: rgba(9, 80, 0, 0.7);
+	padding: 10px 20px;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+}
+
+.area ul {
+	color: #fff;
+	padding: 10px 0;
+}
+
+.area li {
+	padding: 15px 0 30px 0;
+}
+
+.area a {
+	color: #fff;
+}
+
+.area a:hover {
+	color: rgb(243, 210, 199);
+}
+
+.area.is-active {
+	display: block;
+	animation-name: displayAnime;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes displayAnime {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 footer {
-	box-sizing: border-box;
-	max-width: 1200px;
-	margin: 0 auto 10px auto;
-	padding: 15px 30px;
-	background-color: #f0f7d9;
-	border: #dadada 1px solid;
-	border-radius: 0 0 10px 10px;
-	color: rgb(0, 0, 0);
-	font-size: 14px;
+	padding: 8px;
+	background-color: rgb(240, 240, 200);
+	color: black;
 	text-align: right;
 }
 
-a {
-	color: #5e78c1;
-	text-decoration: none;
-}
-
 a:hover {
-	color: #b04188;
+	color: #489247;
 	text-decoration: underline;
 }
 
@@ -386,7 +454,9 @@ a:hover {
 	margin-right: 8px;
 }
 
-/*もっと見るボタン*/
+/*=====================
+もっと見るボタン
+=====================*/
 
 a.more {
 	position: relative;
@@ -466,6 +536,10 @@ a.more:active .more-top {
 	box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*=====================
+ページネーション
+=====================*/
+
 .page {
 	padding: 2px;
 	display: flex;
@@ -478,7 +552,7 @@ a.more:active .more-top {
 	border-radius: 100%;
 }
 
-.active {
+.activepage {
 	background: gold;
 	width: 40px;
 	height: 40px;
@@ -506,6 +580,11 @@ a.more:active .more-top {
 	line-height: 40px;
 	text-align: center;
 	font-weight: bold;
+}
+
+.page li a {
+	color: #5e78c1;
+	text-decoration: none;
 }
 
 .page li a:hover {
@@ -760,6 +839,9 @@ ul.gim {
 		font-size: 10px;
 	}
 	.gim a {
+		font-size: 14px;
+	}
+	.area {
 		font-size: 14px;
 	}
 }
