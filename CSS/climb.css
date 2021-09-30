@@ -2,6 +2,7 @@
 /* CSS Document */
 
 body {
+	min-width: 280px;
 	background-image: url(../images/bg.png);
 	background-size: contain;
 	background-attachment: fixed;
@@ -13,7 +14,7 @@ body {
 .main-wrapper {
 	position: relative;
 	box-sizing: border-box;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 30px 30px;
 	background-color: rgba(255, 255, 255, 0.33);
@@ -26,9 +27,9 @@ body {
 .main-video {
 	position: relative;
 	box-sizing: border-box;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
-	padding: 3px;
+	padding: 6px;
 	background-color: rgba(255, 255, 255, 0.33);
 	border-left: #dadada 1px solid;
 	border-right: #dadadab6 1px solid;
@@ -44,27 +45,30 @@ body {
 	display: flex;
 }
 
-.v2 img {
-	transition-duration: 0.4s;
-}
-
 .main-video .v2 {
 	flex-wrap: wrap;
 	width: 50%;
 	margin: 4px;
 }
 
+.v2 img {
+	margin-bottom: 50px;
+}
+
 .v2 img:hover {
 	transform: scale(1.04);
+	transition-duration: 0.6s;
 }
 
 .main-video p {
 	font-size: 14px;
 	text-align: center;
 	margin: 0;
-	padding: 0;
-	background-color: #fff;
-	margin-top: -7px;
+	padding: 6px;
+	background-color: black;
+	color: #fff;
+	margin-top: -57px;
+	margin-bottom: 30px;
 }
 
 html, body {
@@ -72,7 +76,7 @@ html, body {
 }
 
 header {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	background-image: url(../images/header.png);
 	background-size: cover;
@@ -82,7 +86,7 @@ header {
 
 .header-contents {
 	box-sizing: border-box;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	min-height: 100px;
 	background-image: url(../images/header-logo.png);
@@ -110,9 +114,9 @@ header {
 }
 
 nav ul {
-	display: table;
+	display: flex;
 	margin: 0 auto;
-	padding: 8px;
+	padding: 0;
 	width: 100%;
 	font-size: 18px;
 	text-align: center;
@@ -120,8 +124,9 @@ nav ul {
 }
 
 nav ul li {
-	display: table-cell;
 	position: relative;
+	flex: 1 1;
+	display: table-cell;
 }
 
 nav ul li a {
@@ -140,7 +145,7 @@ nav ul li a.current {
 }
 
 #bread {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
@@ -199,8 +204,8 @@ section h1::before {
 section h2 {
 	position: relative;
 	text-align: center;
-	margin: 10px;
-	padding: 1rem 2rem calc(1rem + 10px);
+	margin: 15px;
+	padding: 0.5rem 0.5rem calc(0.5rem + 3px);
 	background: #fff100;
 	margin-bottom: 3px;
 }
@@ -212,7 +217,7 @@ section h2:before {
 	width: 99%;
 	height: 90%;
 	content: '';
-	border: 4px solid #000;
+	border: 5px solid #000;
 }
 
 h3 {
@@ -290,26 +295,94 @@ ul {
 	font-weight: bold;
 }
 
-footer {
-	box-sizing: border-box;
+/*=====================
+#NEWS
+=====================*/
+
+.newstab {
+	width: 100%;
 	max-width: 960px;
-	margin: 0 auto 10px auto;
-	padding: 15px 30px;
-	background-color: #f0f7d9;
-	border: #dadada 1px solid;
-	border-radius: 0 0 10px 10px;
-	color: rgb(0, 0, 0);
-	font-size: 14px;
+	margin: 30px auto;
+}
+
+.tab {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	list-style: none;
+	background: #fff;
+	border-top: solid;
+	border-left: solid;
+	border-right: solid;
+	font-weight: bold;
+}
+
+.tab li a {
+	display: block;
+	background: #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.tab li.active a {
+	background: rgba(9, 80, 0, 0.7);
+	color: #fff;
+	font-weight: bold;
+}
+
+.area {
+	display: none;
+	opacity: 0;
+	background: rgba(9, 80, 0, 0.7);
+	padding: 10px 20px;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+}
+
+.area ul {
+	color: #fff;
+	padding: 10px 0;
+}
+
+.area li {
+	padding: 15px 0 30px 0;
+}
+
+.area a {
+	color: #fff;
+}
+
+.area a:hover {
+	color: rgb(243, 210, 199);
+}
+
+.area.is-active {
+	display: block;
+	animation-name: displayAnime;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes displayAnime {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+footer {
+	padding: 8px;
+	background-color: rgb(240, 240, 200);
+	color: black;
 	text-align: right;
 }
 
-a {
-	color: #5e78c1;
-	text-decoration: none;
-}
-
 a:hover {
-	color: #b04188;
+	color: #489247;
 	text-decoration: underline;
 }
 
@@ -381,7 +454,9 @@ a:hover {
 	margin-right: 8px;
 }
 
-/*もっと見るボタン*/
+/*=====================
+もっと見るボタン
+=====================*/
 
 a.more {
 	position: relative;
@@ -461,6 +536,10 @@ a.more:active .more-top {
 	box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*=====================
+ページネーション
+=====================*/
+
 .page {
 	padding: 2px;
 	display: flex;
@@ -473,7 +552,7 @@ a.more:active .more-top {
 	border-radius: 100%;
 }
 
-.active {
+.activepage {
 	background: gold;
 	width: 40px;
 	height: 40px;
@@ -503,27 +582,48 @@ a.more:active .more-top {
 	font-weight: bold;
 }
 
+.page li a {
+	color: #5e78c1;
+	text-decoration: none;
+}
+
 .page li a:hover {
 	background: gold;
 	border-radius: 100%;
 }
 
 .tv {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
+section.link {
+	min-width: 280px;
+	margin: 0 -31px;
+	padding: 0.1em;
+	background-color: black;
+}
+
+section.link h2 {
+	margin: 20px 41px;
+}
+
+section.link h2:before {
+	border: 4px solid #fff;
+}
+
 .gim img {
-	width: 35px;
+	display: block;
+	width: 28px;
 	float: right;
-	margin: 0 8px 5px 0;
+	margin: auto;
 }
 
 ul.gim {
 	counter-reset: li;
-	padding: 0.5em 0.5em 0.5em 2em;
+	padding: 0.6em 0.5em 0.6em 2em;
 	font-family: "fantasy", "Chick";
-	width: 90%;
+	width: 75%;
 	margin: 30px auto;
 	list-style: none;
 	background-color: rgba(182, 223, 226, 0.3);
@@ -531,22 +631,31 @@ ul.gim {
 
 .gim li {
 	position: relative;
-	padding: 5px 4px 10px 60px;
+	padding: 10px 4px 10px 60px;
 	margin: auto;
 	border-bottom: 4px dashed rgb(128, 117, 126);
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
-	color: rgb(51, 51, 51);
+}
+
+.gim li a {
+	color: #fdfdd5;
+	text-decoration: none;
+}
+
+.gim li a:hover {
+	color: crimson;
+	text-decoration: underline 1px;
 }
 
 .gim li:before {
 	counter-increment: li;
 	content: counter(li);
 	position: absolute;
-	z-index: -1;
+	z-index: 1;
 	left: -5px;
 	top: 5px;
-	background: #00b62d;
+	background: #afe7bc;
 	height: 1.5em;
 	width: 1.5em;
 	border: .1em solid rgba(0, 0, 0, .05);
@@ -559,10 +668,84 @@ ul.gim {
 
 .gim li:hover:before {
 	background-color: #ffd797;
-	border-color: rgba(0, 0, 0, .08);
+	border-color: coral;
 	border-width: .2em;
 	color: #444;
-	transform: scale(1.5);
+	transform: scale(1.2);
+}
+
+.news {
+	margin: 30px;
+}
+
+.news table {
+	margin: auto;
+	margin-bottom: 60px;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: aliceblue;
+}
+
+.blank {
+	height: 350px;
+}
+
+.blank2 {
+	height: 240px;
+}
+
+.blank3 {
+	height: 100px;
+}
+
+.face {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col4 img {
+	width: 75px;
+	margin-bottom: 50px;
+}
+
+.col4 p {
+	position: absolute;
+	font-size: 10px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 75px;
+	padding: 0;
+	margin-top: -57px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+/*=====================
+にゅ～ん
+=====================*/
+
+.smooth {
+	animation-name: smoothAnime;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	opacity: 0;
+}
+
+@keyframes smoothAnime {
+	from {
+		transform: translate3d(0, 100%, 0) skewY(12deg);
+		opacity: 0;
+	}
+	to {
+		transform: translate3d(0, 0, 0) skewY(0);
+		opacity: 1;
+	}
+}
+
+.smoothTrigger {
+	opacity: 0;
 }
 
 @media (max-width: 600px) {
@@ -589,10 +772,7 @@ ul.gim {
 	}
 	.gim li {
 		font-size: 15px;
-		padding: 5px 4px 10px 30px;
-	}
-	.gim img {
-		width: 32px;
+		padding: 10px 4px 10px 30px;
 	}
 	h3 {
 		position: relative;
@@ -606,7 +786,12 @@ ul.gim {
 		text-align: center;
 		font-size: 11px;
 	}
+	.main-video p {
+		font-size: 13px;
+	}
 }
+
+/*600px以上は2カラム指定*/
 
 @media (min-width: 600px) {
 	.column {
@@ -616,5 +801,47 @@ ul.gim {
 		flex-wrap: wrap;
 		width: 50%;
 		margin: 15px;
+	}
+}
+
+/*タブレット以上指定*/
+
+@media (min-width: 769px) {
+	.newsimgpc {
+		background-image: url(../images/2020tokyopc.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		margin: -31px;
+	}
+}
+
+/*タブレットx以下指定*/
+
+@media (max-width: 768px) {
+	.newsimg {
+		background-image: url(../images/narahara.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+	.newsimg2 {
+		background-image: url(../images/nogunona.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: -31px;
+	}
+	.news tr {
+		font-size: 10px;
+	}
+	.gim a {
+		font-size: 14px;
+	}
+	.area {
+		font-size: 14px;
 	}
 }

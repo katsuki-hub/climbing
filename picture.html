@@ -16,9 +16,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name=”robots” content=”noindex”>
-  <title>動画一覧</title>
-  <meta name="description" content="動画の一覧！">
-  <link href="css/climb.css?v=20210921" rel="stylesheet" type="text/css">
+  <title>道場課題一覧</title>
+  <meta name="description" content="道場課題の一覧！">
+  <link href="css/climb.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
@@ -33,7 +33,6 @@
   <meta name="apple-mobile-web-app-title" content="ボルダリング部">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
-  <link rel="prev" href="https://katsu-climbing.site/movie">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js')
@@ -42,6 +41,31 @@
         });
     }
   </script>
+  <style>
+    section img {
+      max-width: 100%;
+    }
+
+    .img {
+      text-align: center;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .img ul {
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+
+      list-style-type: none;
+    }
+
+    .img li {
+      float: left;
+      margin-right: 1%;
+      width: 19%;
+    }
+  </style>
 </head>
 
 <body>
@@ -51,16 +75,16 @@
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-contents">
-      <h1>ボルダリングムービー集</h1>
-      <h2>動画一覧</h2>
+      <h1>ピクチャの一覧</h1>
+      <h2>課題写真！！</h2>
     </div><!-- /.header-contents -->
 
     <!-- グローバルナビ -->
     <nav>
       <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a class="current" href="movie.html">動画一覧</a></li>
-        <li><a href="picture.html">ピクチャ</a></li>
+        <li><a href="movie.html">動画一覧</a></li>
+        <li><a class="current" href="picture.html">ピクチャ</a></li>
       </ul>
     </nav>
   </header>
@@ -68,68 +92,48 @@
   <div id="bread">
     <ol>
       <li><a href="index.html">HOME</a></li>
-      <li><a href="movie.html">動画2ページ</a></li>
+      <li><a href="picture.html">ピクチャ</a></li>
     </ol>
   </div>
   <div class="main-video">
     <article>
       <section>
-        <h2>過去動画一覧</h2>
-
-        <div class="column">
-          <div class="v2">
-            <h3>4級課題</h3>
-            <a href="video/b8.mp4"><img class="video" src="images/b8.jpg" alt="4級課題"></a>
-            <p>95度の4級課題に挑戦！＆95度のマンスリー5番に挑戦！</p>
+        <h2>写真一覧</h2>
+        
+        <h3>8月</h3>
+        <!-- 写真 -->
+        <div class="img">
+          <div>
+            <img src="images/picture/0801.jpg" id="bigimg2">
           </div>
-
-          <div class="v2">
-            <h3>ランジ課題挑戦</h3>
-            <a href="video/b7.mp4"><img class="video" src="images/b7.jpg" alt="ランジ課題挑戦"></a>
-            <p>3級のランジ課題に挑戦！みんなで飛ぶ！</p>
-          </div>
+          <ul>
+            <li><img src="images/picture/0801.jpg" class="thumb2" data-image="images/picture/0801.jpg"></li>
+            <li><img src="images/picture/0802.jpg" class="thumb2" data-image="images/picture/0802.jpg"></li>
+            <li><img src="images/picture/0803.jpg" class="thumb2" data-image="images/picture/0803.jpg"></li>
+            <li><img src="images/picture/0804.jpg" class="thumb2" data-image="images/picture/0804.jpg"></li>
+            <li><img src="images/picture/0805.jpg" class="thumb2" data-image="images/picture/0805.jpg"></li>
+          </ul>
         </div>
-
-        <div class="column">
-          <div class="v2">
-            <h3>95度マンスリー5番</h3>
-            <a href="video/b6.mp4"><img class="video" src="images/b6.jpg" alt="マンスリー5番"></a>
-            <p>マンスリー5番に挑戦！ゴール取りで何度も落ちる</p>
+        <div class="blank3"></div>
+        <h3>6月</h3>
+        <!-- 写真 -->
+        <div class="img">
+          <div>
+            <img src="images/picture/0601.jpg" id="bigimg">
           </div>
-
-          <div class="v2">
-            <h3>3級課題</h3>
-            <a href="video/b5.mp4"><img class="video" src="images/b5.jpg" alt="3級課題"></a>
-            <p>3級課題に挑戦！コーディネーション課題</p>
-          </div>
+          <ul>
+            <li><img src="images/picture/0601.jpg" class="thumb" data-image="images/picture/0601.jpg"></li>
+            <li><img src="images/picture/0602.jpg" class="thumb" data-image="images/picture/0602.jpg"></li>
+            <li><img src="images/picture/0603.jpg" class="thumb" data-image="images/picture/0603.jpg"></li>
+            <li><img src="images/picture/0604.jpg" class="thumb" data-image="images/picture/0604.jpg"></li>
+            <li><img src="images/picture/0605.jpg" class="thumb" data-image="images/picture/0605.jpg"></li>
+          </ul>
         </div>
-
-        <div class="column">
-          <div class="v2">
-            <h3>初回動画</h3>
-            <a href="video/b4.mp4"><img class="video" src="images/b4.jpg" alt="初回動画"></a>
-            <p>ボルダリング部<br>初めての動画撮影！</p>
-          </div>
-
-          <div class="v2">
-            <h3>ボルダリング部</h3>
-            <a href="video/bb.mp4"><img class="video" src="images/bb.jpg" alt="オープニング"></a>
-            <p>ボルダリング部<br>オープニング風動画</p>
-          </div>
-        </div>
-
+        <div class="blank3"></div>
       </section>
     </article>
-    <!-- ページネーション -->
-    <ul class="page">
-      <li class="move"><a href="movie.html" rel="prev">&lt;&lt;</li>
-      <li class="another"><a href="movie.html">&nbsp;&nbsp;1&nbsp;&nbsp;</a></li>
-      <li class="activepage">2</li>
-    </ul>
   </div><!-- /.main-wrapper -->
   <footer><small>&copy; 2021 ボルダリング部</small></footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="scripts/images.js"></script>
 </body>
 

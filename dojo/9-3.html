@@ -16,12 +16,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name=”robots” content=”noindex”>
-  <title>道場課題一覧</title>
+  <title>6月4週の道場課題</title>
   <meta name="description" content="道場課題の一覧！">
-  <link href="css/climb.css" rel="stylesheet" type="text/css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
+  <link href="../css/climb.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../android-touch-icon.png">
   <meta property="og:title" content="ボルダリング部">
   <meta property="og:type" content="website">
   <meta property="og:description" content="活動内容とその動画を見ることが出来ます">
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="ボルダリング部">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="manifest" href="../manifest.json">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js')
@@ -41,29 +41,6 @@
         });
     }
   </script>
-  <style>
-    section img {
-      max-width: 100%;
-    }
-
-    .img {
-      margin: 0 auto 0 auto;
-      width: 100%;
-    }
-
-    .img ul {
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-    }
-
-    .img li {
-      float: left;
-      margin-right: 1%;
-      width: 19%;
-    }
-  </style>
 </head>
 
 <body>
@@ -73,62 +50,51 @@
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-contents">
-      <h1>ピクチャの一覧</h1>
+      <h1>6月4週の道場課題</h1>
       <h2>課題写真！！</h2>
     </div><!-- /.header-contents -->
 
     <!-- グローバルナビ -->
     <nav>
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="movie.html">動画一覧</a></li>
-        <li><a class="current" href="dojo.html">ピクチャ</a></li>
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../movie.html">動画一覧</a></li>
+        <li><a href="../picture.html">ピクチャ</a></li>
       </ul>
     </nav>
   </header>
   <!-- パンくずリスト -->
   <div id="bread">
     <ol>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="dojo.html">ピクチャ</a></li>
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="../picture.html">ピクチャ</a></li>
+      <li><a href="../dojo/9-3.html">9月3週</a></li>
     </ol>
   </div>
-  <div class="main-wrapper">
+  <div class="main-video">
     <article>
       <section>
-        <h2>写真一覧</h2>
-        <div id="dojolist">
-          <ul>
-            <h3>6月</h3>
-            <li><a href="dojo/6_4.html">6月4週目の道場課題の写真</a></li>
-          </ul>
+        <h2>9月3週の道場課題</h2>
+        <h3>スラブ課題</h3>
+        <div style="text-align: center">
+          <img src="../images/dojo/2021-9-3/1.jpg" width="94%" alt="スラブ">
+          <img src="../images/dojo/2021-9-3/2.jpg" width="94%" alt="スラブ">
         </div>
-        <!-- 写真 -->
-        <div class="img">
-          <div>
-            <img src="images/picture/0601.jpg" id="bigimg">
-          </div>
-          <ul>
-            <li><img src="images/picture/0601.jpg" class="thumb" data-image="images/picture/0601.jpg"></li>
-            <li><img src="images/picture/0602.jpg" class="thumb" data-image="images/picture/0602.jpg"></li>
-            <li><img src="images/picture/0603.jpg" class="thumb" data-image="images/picture/0603.jpg"></li>
-            <li><img src="images/picture/0604.jpg" class="thumb" data-image="images/picture/0604.jpg"></li>
-            <li><img src="images/picture/0605.jpg" class="thumb" data-image="images/picture/0605.jpg"></li>
-          </ul>
+        <h3>垂壁課題</h3>
+        <div style="text-align: center">
+          <img src="../images/dojo/2021-9-3/3.jpg" width="94%" alt="垂壁">
+          <img src="../images/dojo/2021-9-3/4.jpg" width="94%" alt="垂壁">
         </div>
-
+        
+        <h3>110度課題</h3>
+        <div style="text-align: center">
+          <img src="../images/dojo/2021-9-3/5.jpg" width="94%" alt="110度">
+          <img src="../images/dojo/2021-9-3/6.jpg" width="94%" alt="110度">
+        </div>
       </section>
     </article>
   </div><!-- /.main-wrapper -->
-  <footer>ファッションセンター〇〇むら</footer>
-  <script>
-    var thumbs = document.querySelectorAll(".thumb");
-    for (var i = 0; i < thumbs.length; i++) {
-      thumbs[i].onclick = function () {
-        document.getElementById("bigimg").src = this.dataset.image;
-      };
-    }
-  </script>
+  <footer><small>&copy; 2021 ボルダリング部</small></footer>
 </body>
 
 </html>

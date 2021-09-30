@@ -18,7 +18,7 @@
   <meta name=”robots” content=”noindex”>
   <title>ボルダリング部</title>
   <meta name="description" content="ボルダリング部の活動映像集ページです！">
-  <link href="css/climb.css" rel="stylesheet" type="text/css">
+  <link href="css/climb.css?v=20210921" rel="stylesheet" type="text/css">
   <link href="css/calendar.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -60,7 +60,7 @@
       <ul>
         <li><a class="current" href="index.html">HOME</a></li>
         <li><a href="movie.html">動画一覧</a></li>
-        <li><a href="dojo.html">ピクチャ</a></li>
+        <li><a href="picture.html">ピクチャ</a></li>
       </ul>
     </nav>
 
@@ -69,62 +69,81 @@
     <video src="topvideo.mp4" poster="images/topvideo.jpg" autoplay muted loop playsinline width="100%"
       controlsList="nodownload" oncontextmenu="return false"></video>
   </div>
+
   <div class="main-wrapper">
+    <!-- NEWS -->
+    <section>
+      <h2>NEWS</h2>
+      <div class="newstab">
+        <ul class="tab">
+          <li><a href="#new">お知らせ</a></li>
+          <li><a href="#kadai">課題写真</a></li>
+        </ul>
+
+        <div id="new" class="area">
+          <ul>
+            <li>【9月20日】95度＆110度壁 マンスリー10本公開</li>
+            <li>【9月15日】2階マンスリー20本公開</li>
+            <li>【9月8日】95度＆110度壁 ホールドチェンジ</li>
+            <li><a href="olympic.html">オリンピック2021 リザルト</a></li>
+          </ul>
+        </div><!-- /area -->
+
+
+        <div id="kadai" class="area">
+          <ul>
+            <li><a href="dojo/9-3.html">9月3週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/6_4.html">6月4週目の道場課題の写真はこちらをクリック！！</a></li>
+          </ul>
+        </div><!-- /area -->
+      </div><!-- /newstab -->
+    </section><!-- /news -->
+    <div class="blank3"></div>
+    <!-- 新着動画 -->
+    <section>
+      <h2>新着動画</h2>
+      <div class="column">
+        <div class="v2">
+          <h3>Barehandsへ</h3>
+          <a href="video/b15.mp4"><img class="video smoothTrigger" src="images/b15.jpg" alt="barehandsへ"></a>
+        </div>
+        <div class="v2">
+          <h3>スラブ3級と垂壁2級</h3>
+          <a href="video/b14.mp4"><img class="video smoothTrigger" src="images/b14.jpg" alt="道場課題6月4週"></a>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="v2">
+          <h3>垂壁壁2級</h3>
+          <a href="video/b13.mp4"><img class="video smoothTrigger" src="images/b13.jpg" alt="垂壁壁2級"></a>
+        </div>
+        <div class="v2">
+          <h3>110度課題</h3>
+          <a href="video/b12.mp4"><img class="video smoothTrigger" src="images/b12.jpg" alt="110度課題"></a>
+        </div>
+      </div>
+
+      <!-- 過去動画ボタン -->
+      <a class="more" href="movie.html">
+        <span class="more-bottom"></span>
+        <span class="more-top"><span>過去動画へ</span></span>
+      </a>
+    </section>
+    <div class="blank3"></div>
     <section>
       <h1 data-en="Schedule">スケジュール</h1>
       <!-- カレンダー -->
       <div id="calendar"></div>
       <!-- カウントダウン -->
       <div class="frame">
-        <p style="font-size: 16px; color: rgb(0, 77, 100); ">スポーツクライミング男子予選まで</p>
+        <p style="font-size: 16px; color: rgb(0, 77, 100); ">2021年も残り</p>
         <p class="timer">あと<span id="day"></span>日<span id="hour"></span>時間<span id="min"></span>分<span
             id="sec"></span>秒</p>
       </div>
-      <br><br><br>
-
-      <!-- 新着動画 -->
-      <h2>新着動画</h2>
-      <div class="column">
-        <div class="v2">
-          <h3>110度課題</h3>
-          <a href="video/b12.mp4"><img class="video" src="images/b12.jpg" alt="110度課題"></a>
-        </div><br>
-        <div class="v2">
-          <h3>道場課題6月4週</h3>
-          <a href="video/b11.mp4"><img class="video" src="images/b11.jpg" alt="道場課題6月4週"></a>
-        </div>
-      </div><br>
-
-      <div class="column">
-        <div class="v2">
-          <h3>110度マンスリー6番</h3>
-          <a href="video/b10.mp4"><img class="video" src="images/b10.jpg" alt="道場課題6月4週"></a>
-        </div><br>
-        <div class="v2">
-          <h3>95度マンスリー5番</h3>
-          <a href="video/b9.mp4"><img class="video" src="images/b9.jpg" alt="マンスリー5"></a>
-        </div>
-      </div><br><br>
-
-      <!-- もっと見るボタン -->
-      <a class="more" href="movie.html">
-        <span class="more-bottom"></span>
-        <span class="more-top"><span>過去動画へ</span></span>
-      </a><br><br>
-
-      <!-- 課題の写真 -->
-      <h2>課題の写真</h2><br>
-      <div
-        style="text-align: center; max-width: 578px; margin: 0 auto; padding: 10px; margin-bottom: 10px; border:dotted 1px #ffffff; background-color: rgb(175, 221, 175);">
-        <a href="dojo/6_4.html"><b>6月4週目の道場課題の写真はこちらをクリック！！<br>全８課題</b></a>
-      </div><br><br><br>
-
-      <!-- もっと見るボタン -->
-      <a class="more" href="dojo.html">
-        <span class="more-bottom"></span>
-        <span class="more-top"><span>ピクチャへ</span></span>
-      </a><br><br><br>
-
+    </section>
+    <div class="blank3"></div>
+    <section class="link">
       <h2>ボルダリングジム</h2>
       <ul class="gim">
         <li><a href="https://mono-climbing.com/">モノクライミング</a>
@@ -155,7 +174,7 @@
           <a href="https://www.instagram.com/climbingatwall/"><img src="images/Instagram_AppIcon_Aug2017.png"
               alt="Instagram"></a>
         </li>
-        
+
         <li><a href="https://www.sunwall.jp/">SUN WALL</a>
           <a href="https://www.instagram.com/sun.wall/"><img src="images/Instagram_AppIcon_Aug2017.png"
               alt="Instagram"></a>
@@ -176,6 +195,11 @@
               alt="Instagram"></a>
         </li>
 
+        <li><a href="https://attic-climbing.mystrikingly.com/">ATTIC CLIMBING</a>
+          <a href="https://www.instagram.com/atticclimbing/"><img src="images/Instagram_AppIcon_Aug2017.png"
+              alt="Instagram"></a>
+        </li>
+
         <li><a href="https://ecole-climbing.com/">ECOLE</a>
           <a href="https://www.facebook.com/ecole.climbing"><img src="images/f_logo_RGB-Hex-Blue_512.png"
               alt="facebook"></a>
@@ -183,7 +207,7 @@
 
         <li><a href="https://stump-climbing.com/">STUMP</a>
           <a href="https://www.instagram.com/stumpclimbing/"><img src="images/Instagram_AppIcon_Aug2017.png"
-            alt="instagram"></a>
+              alt="instagram"></a>
         </li>
 
         <li><a href="https://bravoclimbing.com/shop_fukuoka-nishi.html">ブラボー福岡西</a>
@@ -200,13 +224,33 @@
           <a href="https://www.facebook.com/iMpACtclimbing"><img src="images/f_logo_RGB-Hex-Blue_512.png"
               alt="facebook"></a>
         </li>
+
+        <li><a href="https://www.favourclimbing.com/">Favour-climbing</a>
+          <a href="https://www.instagram.com/favourclimbing/"><img src="images/Instagram_AppIcon_Aug2017.png"
+              alt="instagram"></a>
+        </li>
+
+        <li><a href="https://kurume.joywallclimbing.com/">JOYWALL</a>
+          <a
+            href="https://www.facebook.com/%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A0joywall-216426238516811/"><img
+              src="images/f_logo_RGB-Hex-Blue_512.png" alt="facebook"></a>
+        </li>
+
+        <li><a href="http://fukuoka-westside-climbing-myway.com/">MYWAY</a>
+          <a href="https://www.instagram.com/mywayclimbing/"><img src="images/Instagram_AppIcon_Aug2017.png"
+              alt="instagram"></a>
+        </li>
       </ul>
     </section>
+
   </div><!-- /.main-wrapper -->
-  <footer>ファッションセンター〇〇むら</footer>
+  <footer><small>&copy; 2021 ボルダリング部</small></footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="scripts/countdown.js"></script>
   <script src="scripts/calendar.js"></script>
-  <script src="scripts/event.js"></script>
+  <script src="scripts/event.js?v=20210921"></script>
+  <script src="scripts/images.js?v=20210921"></script>
 </body>
 
 </html>
