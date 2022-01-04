@@ -1,5 +1,5 @@
 var events = [
-  { 'Date': new Date(2021, 8, 20), "Title": "95度＆110度壁<br>マンスリー10本公開"},
+  { 'Date': new Date(2022, 0, 10), "Title": "成人の日"},
   { 'Date': new Date(2021, 8, 15), "Title": "2階マンスリー<br>20本公開"},
   { 'Date': new Date(2021, 8, 8), "Title": "95度＆110度壁<br>ホールドチェンジ"},
   { 'Date': new Date(2021, 7, 3), "Title": "男子予選<br>スピード 17:00<br>ボルダリング 18:00<br>リード 21:10"},
