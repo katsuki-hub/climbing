@@ -24,43 +24,20 @@ body {
 	min-height: calc(100% - 200px);
 }
 
-.main-video {
-	position: relative;
-	box-sizing: border-box;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 6px;
-	background-color: rgba(255, 255, 255, 0.33);
-	border-left: #dadada 1px solid;
-	border-right: #dadadab6 1px solid;
-	min-height: 80%;
-	min-height: calc(100% - 200px);
-}
-
 .v2 {
 	overflow: hidden;
 }
 
-.main-video .column {
-	display: flex;
-}
-
-.main-video .v2 {
-	flex-wrap: wrap;
-	width: 50%;
-	margin: 4px;
-}
-
-.v2 img {
+img {
 	margin-bottom: 50px;
 }
 
-.v2 img:hover {
+img:hover {
 	transform: scale(1.04);
 	transition-duration: 0.6s;
 }
 
-.main-video p {
+.item p {
 	font-size: 14px;
 	text-align: center;
 	margin: 0;
