@@ -26,7 +26,7 @@
   <meta name=”robots” content=”noindex”>
   <title>ボルダリング部</title>
   <meta name="description" content="ボルダリング部の活動映像集ページです！">
-  <link href="css/climb.css?v=20210921" rel="stylesheet" type="text/css">
+  <link href="css/climb.css?v=20220114" rel="stylesheet" type="text/css">
   <link href="css/calendar.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -34,9 +34,9 @@
   <meta property="og:title" content="ボルダリング部">
   <meta property="og:type" content="website">
   <meta property="og:description" content="活動内容とその動画を見ることが出来ます">
-  <meta property="og:url" content="https://katsu-climbing.site/">
+  <meta property="og:url" content="https://climbing.katsumaru.blog">
   <meta property="og:site_name" content="ボルダリング部">
-  <meta property="og:image" content="https://katsu-climbing.site/images/bb.png">
+  <meta property="og:image" content="https://climbing.katsumaru.blog/images/bb.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="ボルダリング部">
