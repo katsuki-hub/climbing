@@ -170,7 +170,7 @@ for (var i = 0; i < mf8.length; i++) {
 }
 
 /*女子決勝*/
-var wf1 = ["金", "ヤンヤ・ガルンブレト", "スロベニア", "5.00", "1.00", "1.00", "5.00"];
+var wf1 = ["金", "ヤンヤ・ガンブレッド", "スロベニア", "5.00", "1.00", "1.00", "5.00"];
 for (var i = 0; i < wf1.length; i++) {
   var td = document.createElement("td");
   td.textContent = wf1[i];

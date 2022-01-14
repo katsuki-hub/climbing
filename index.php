@@ -66,8 +66,8 @@
     <nav>
       <ul>
         <li><a class="current" href="index.php">HOME</a></li>
-        <li><a href="movie.html">動画一覧</a></li>
-        <li><a href="picture.html">ピクチャ</a></li>
+        <li><a href="content/movie.php">動画一覧</a></li>
+        <li><a href="content/picture.php">ピクチャ</a></li>
       </ul>
     </nav>
 
@@ -88,10 +88,9 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【1月7日】スラブ・垂壁 ホールドチェンジ</li>
             <li>【12月27日】95度＆110度壁 マンスリー10本</li>
-            <li>【9月15日】2階マンスリー20本公開</li>
-            <li>【9月8日】95度＆110度壁 ホールドチェンジ</li>
-            <li><a href="olympic.html">オリンピック2021 リザルト</a></li>
+            <li><a href="content/olympic.php">オリンピック2021 リザルトはこちらをクリック！</a></li>
           </ul>
         </div><!-- /area -->
 
@@ -113,6 +112,7 @@
           <h3>Barehandsへ</h3>
           <a href="video/b15.mp4"><img class="video smoothTrigger" src="images/b15.jpg" alt="barehandsへ"></a>
         </div>
+
         <div class="v2">
           <h3>スラブ3級と垂壁2級</h3>
           <a href="video/b14.mp4"><img class="video smoothTrigger" src="images/b14.jpg" alt="道場課題6月4週"></a>
@@ -124,6 +124,7 @@
           <h3>垂壁壁2級</h3>
           <a href="video/b13.mp4"><img class="video smoothTrigger" src="images/b13.jpg" alt="垂壁壁2級"></a>
         </div>
+
         <div class="v2">
           <h3>110度課題</h3>
           <a href="video/b12.mp4"><img class="video smoothTrigger" src="images/b12.jpg" alt="110度課題"></a>
@@ -131,7 +132,7 @@
       </div>
 
       <!-- 過去動画ボタン -->
-      <a class="more" href="movie.html">
+      <a class="more" href="content/movie.php">
         <span class="more-bottom"></span>
         <span class="more-top"><span>過去動画へ</span></span>
       </a>

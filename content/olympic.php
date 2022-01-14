@@ -2,73 +2,34 @@
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KFRHHVG');</script>
-  <!-- End Google Tag Manager -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <meta name=”robots” content=”noindex”>
-  <title>ボルダリング部</title>
-  <meta name="description" content="ボルダリング部の活動映像集ページです！">
-  <link href="css/climb.css" rel="stylesheet" type="text/css">
-  <link href="css/calendar.css" rel="stylesheet" type="text/css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="android-touch-icon.png">
-  <meta property="og:title" content="ボルダリング部">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="活動内容とその動画を見ることが出来ます">
-  <meta property="og:url" content="https://katsu-climbing.site/">
-  <meta property="og:site_name" content="ボルダリング部">
-  <meta property="og:image" content="https://katsu-climbing.site/images/bb.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="ボルダリング部">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="manifest" href="manifest.json">
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
-        .then((reg) => {
-          console.log('Service worker registered.', reg);
-        });
-    }
-  </script>
+  <?php $title = "2021オリンピックリザルト" ?>
+  <?php require_once "../common/head.php"; ?>
 </head>
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFRHHVG" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFRHHVG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-contents">
-      <h1>ボルダリング部</h1>
-      <h2>動画視聴ができますよ！！</h2>
+      <h1>2021オリンピック</h1>
+      <h2>結果リザルト</h2>
     </div><!-- /.header-contents -->
 
     <!-- グローバルナビ -->
     <nav>
       <ul>
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="../index.php">HOME</a></li>
         <li><a href="movie.html">動画一覧</a></li>
-        <li><a href="picture.html">ピクチャ</a></li>
+        <li><a href="picture.php">ピクチャ</a></li>
       </ul>
     </nav>
   </header>
   <!-- パンくずリスト -->
   <div id="bread">
     <ol>
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="olympic.html">オリンピック</a></li>
+      <li><a href="../index.php">HOME</a></li>
+      <li><a href="olympic.php">オリンピック</a></li>
     </ol>
   </div><!-- /bread -->
 
@@ -83,35 +44,35 @@
             <h3>決勝出場男子選手</h3>
             <div class="face">
               <div class="col4">
-                <img src="images/face/mikeru.jpg">
+                <img src="../images/face/mikeru.jpg">
                 <p>ミカエル・マウェム</p>
               </div>
               <div class="col4">
-                <img src="images/face/narasaki.jpg">
+                <img src="../images/face/narasaki.jpg">
                 <p>楢崎　智亜</p>
               </div>
               <div class="col4">
-                <img src="images/face/korin.jpg">
+                <img src="../images/face/korin.jpg">
                 <p>コリン・ダフィー</p>
               </div>
               <div class="col4">
-                <img src="images/face/yakopu.jpg">
+                <img src="../images/face/yakopu.jpg">
                 <p>ヤコブ・シューベルト</p>
               </div>
               <div class="col4">
-                <img src="images/face/adamu.jpg">
+                <img src="../images/face/adamu.jpg">
                 <p>アダム・オンドラ</p>
               </div>
               <div class="col4">
-                <img src="images/face/aruberuto.jpg">
+                <img src="../images/face/aruberuto.jpg">
                 <p>アルベルト・ヒネスロペス</p>
               </div>
               <div class="col4">
-                <img src="images/face/pasa.jpg">
+                <img src="../images/face/pasa.jpg">
                 <p>バッサ・マウェム</p>
               </div>
               <div class="col4">
-                <img src="images/face/nasanieru.jpg">
+                <img src="../images/face/nasanieru.jpg">
                 <p>ナサニエル・コールマン</p>
               </div>
             </div>
@@ -169,35 +130,35 @@
             <h3>決勝出場女子選手</h3>
             <div class="face">
               <div class="col4">
-                <img src="images/face/yanya.jpg">
+                <img src="../images/face/yanya.jpg">
                 <p>ヤンヤ・ガンブレット</p>
               </div>
               <div class="col4">
-                <img src="images/face/so.jpg">
+                <img src="../images/face/so.jpg">
                 <p>ソ・チェヒョン</p>
               </div>
               <div class="col4">
-                <img src="images/face/nonaka.jpg">
+                <img src="../images/face/nonaka.jpg">
                 <p>野中　生萌</p>
               </div>
               <div class="col4">
-                <img src="images/face/noguti.jpg">
+                <img src="../images/face/noguti.jpg">
                 <p>野口　啓代</p>
               </div>
               <div class="col4">
-                <img src="images/face/burukku.jpg">
+                <img src="../images/face/burukku.jpg">
                 <p>ブルック・ラバトゥ</p>
               </div>
               <div class="col4">
-                <img src="images/face/jecika.jpg">
+                <img src="../images/face/jecika.jpg">
                 <p>ジェシカ・ピルツ</p>
               </div>
               <div class="col4">
-                <img src="images/face/arecsandora.jpg">
+                <img src="../images/face/arecsandora.jpg">
                 <p>アレクサンドラ・ミロスラフ</p>
               </div>
               <div class="col4">
-                <img src="images/face/anuku.jpg">
+                <img src="../images/face/anuku.jpg">
                 <p>アヌーク・ジョベール</p>
               </div>
             </div>
@@ -250,9 +211,8 @@
     </section>
   </div><!-- /.main-wrapper -->
   <footer><small>&copy; 2021 ボルダリング部</small></footer>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="scripts/record.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="../scripts/record.js"></script>
 </body>
 
 </html>
