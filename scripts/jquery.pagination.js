@@ -78,7 +78,7 @@
 				paginationMode: true,
 				itemElement: null,
 				defaultDisplayPageNumber: 1,
-				displayItemCount: 6,
+				displayItemCount: 5,
 				prevNextPageBtnMode: true,
 				firstEndPageBtnMode: true,
 				bothEndsBtnHideDisplay: true,
