@@ -88,6 +88,7 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【2月2日】95度・110度 ホールドチェンジ</li>
             <li>【1月7日】スラブ・垂壁 ホールドチェンジ</li>
             <li>【12月27日】95度＆110度壁 マンスリー10本</li>
             <li><a href="content/olympic.php">オリンピック2021 リザルトはこちらをクリック！</a></li>
@@ -138,6 +139,63 @@
       </a>
     </section>
     <div class="blank3"></div>
+
+    <?php
+    require_once("common/es.php");
+    ?>
+
+    <section>
+      <h2>掲示板</h2>
+
+      <form method="POST" action="content/writeMemo.php">
+        <ul>
+          <li>
+            <textarea name="memo" cols="40" rows="8" maxlength="200" placeholder="コメント入力"></textarea>
+          </li>
+          <li><input type="submit" value="送信する"></li>
+        </ul>
+      </form>
+
+      <?php
+      $line_num = 50; // 表示する行数
+
+      $contents = file('data/comment.txt', FILE_IGNORE_NEW_LINES);
+
+      $start_index = count($contents) - $line_num;
+      if ($start_index < 0) {
+        $start_index = 0;
+      }
+      ?>
+
+      <div class="comment">
+        <?php
+        $filename = "data/comment.txt";
+        try {
+          $fileobj = new SplFileObject($filename, "rb");
+          $fileobj->seek($start_index);
+        } catch (Exception $e) {
+          echo '<span class="error">エラーがありました</span>';
+          echo $e->getMessage();
+          exit();
+        }
+
+        $fileobj->flock(LOCK_SH);
+        $readdata = $fileobj->fread($fileobj->getSize());
+        $fileobj->flock(LOCK_UN);
+
+        if (!($readdata === FALSE)) {
+          $readdata = es($readdata);
+          $readdata_br = nl2br($readdata, false);
+          echo $readdata_br;
+        } else {
+          echo '<span class="error">ファイルを読み込めませんでした</span>';
+        }
+        ?>
+      </div>
+    </section>
+
+    <div class="blank3"></div>
+
     <section>
       <h1 data-en="Schedule">スケジュール</h1>
       <!-- カレンダー -->

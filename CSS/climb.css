@@ -530,6 +530,18 @@ section.link {
 	background-color: black;
 }
 
+form {
+	text-align: center;
+}
+
+.comment {
+	background: rgb(210, 210, 200);
+	max-height: 400px;
+	overflow: scroll;
+	font-size: 13px;
+	border: rgb(120, 119, 116) 5px solid;
+}
+
 section.link h2 {
 	margin: 20px 41px;
 }
