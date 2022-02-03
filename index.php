@@ -144,7 +144,7 @@
     require_once("common/es.php");
     ?>
 
-    <section>
+    <section id="board">
       <h2>掲示板</h2>
 
       <form method="POST" action="content/writeMemo.php">
@@ -191,6 +191,7 @@
           echo '<span class="error">ファイルを読み込めませんでした</span>';
         }
         ?>
+        <form action="https://climbing.katsumaru.blog/#board"><input type="submit" value="リロード"></form>
       </div>
     </section>
 
