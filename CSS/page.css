@@ -15,7 +15,7 @@
 .pagination .next-page {}
 
 .pagination .prev-page button {
-  background: rgb(255, 200, 187);
+  background: rgb(200, 220, 230);
   width: 40px;
   height: 40px;
   margin: 0 10px;
@@ -24,7 +24,7 @@
 }
 
 .pagination .next-page button {
-  background: rgb(255, 200, 187);
+  background: rgb(200, 220, 230);
   width: 40px;
   height: 40px;
   margin: 0 10px;
@@ -47,13 +47,13 @@
 .pagination .end-page {}
 
 .pagination .first-page button {
-  background: rgb(255, 130, 172);
+  background: rgb(180, 220, 230);
   height: 40px;
   text-align: center;
 }
 
 .pagination .end-page button {
-  background: rgb(255, 130, 172);
+  background: rgb(180, 220, 230);
   height: 40px;
   text-align: center;
 }
