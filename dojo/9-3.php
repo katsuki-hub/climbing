@@ -10,7 +10,7 @@
   <?php require_once "../common/bodyTag.php"; ?>
   <header>
     <div class="header-contents">
-      <h1>6月4週の道場課題</h1>
+      <h1>9月3週の道場課題</h1>
       <h2>課題写真！！</h2>
     </div><!-- /.header-contents -->
 
@@ -18,8 +18,8 @@
     <nav>
       <ul>
         <li><a href="../index.php">HOME</a></li>
-        <li><a href="../movie.php">動画一覧</a></li>
-        <li><a href="../picture.html">ピクチャ</a></li>
+        <li><a href="../content/movie.php">動画一覧</a></li>
+        <li><a href="../content/picture.php">ピクチャ</a></li>
       </ul>
     </nav>
   </header>

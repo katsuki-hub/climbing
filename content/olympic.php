@@ -18,7 +18,7 @@
     <nav>
       <ul>
         <li><a href="../index.php">HOME</a></li>
-        <li><a href="movie.html">動画一覧</a></li>
+        <li><a href="movie.php">動画一覧</a></li>
         <li><a href="picture.php">ピクチャ</a></li>
       </ul>
     </nav>
