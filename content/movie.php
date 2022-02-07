@@ -8,9 +8,7 @@
 </head>
 
 <body class="allmovie">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFRHHVG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <?php require_once "../common/bodyTag.php"; ?>
   <header>
     <div class="header-contents">
       <h1>ボルダリングムービー集</h1>
