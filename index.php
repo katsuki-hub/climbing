@@ -98,8 +98,8 @@
 
         <div id="kadai" class="area">
           <ul>
-            <li><a href="dojo/9-3.html">9月3週目の道場課題の写真はこちらをクリック！！</a></li>
-            <li><a href="dojo/6_4.html">6月4週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/9-3.php">9月3週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/6_4.php">6月4週目の道場課題の写真はこちらをクリック！！</a></li>
           </ul>
         </div><!-- /area -->
       </div><!-- /newstab -->
