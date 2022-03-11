@@ -24,31 +24,8 @@ body {
 	min-height: calc(100% - 200px);
 }
 
-.main-video {
-	position: relative;
-	box-sizing: border-box;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 6px;
-	background-color: rgba(255, 255, 255, 0.33);
-	border-left: #dadada 1px solid;
-	border-right: #dadadab6 1px solid;
-	min-height: 80%;
-	min-height: calc(100% - 200px);
-}
-
 .v2 {
 	overflow: hidden;
-}
-
-.main-video .column {
-	display: flex;
-}
-
-.main-video .v2 {
-	flex-wrap: wrap;
-	width: 50%;
-	margin: 4px;
 }
 
 .v2 img {
@@ -60,7 +37,7 @@ body {
 	transition-duration: 0.6s;
 }
 
-.main-video p {
+.item p {
 	font-size: 14px;
 	text-align: center;
 	margin: 0;
@@ -341,6 +318,10 @@ ul {
 	border-right: solid;
 }
 
+.area ul li {
+	list-style-type: none;
+}
+
 .area ul {
 	color: #fff;
 	padding: 10px 0;
@@ -369,6 +350,7 @@ ul {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -431,7 +413,7 @@ a:hover {
 
 #dojolist ul li {
 	position: relative;
-	list-style-type: none!important;
+	list-style-type: none !important;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 	margin-bottom: 5px;
 	line-height: 2;
@@ -486,7 +468,7 @@ a.more:active .more-top {
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 	border-radius: 0 0 50% 50%;
-	background-image: -webkit-gradient( linear, right top, left top, from(#630909), to(#d62d2d));
+	background-image: -webkit-gradient(linear, right top, left top, from(#630909), to(#d62d2d));
 	background-image: -webkit-linear-gradient(right, #630909 0%, #d62d2d 100%);
 	background-image: linear-gradient(to left, #630909 0%, #d62d2d 100%);
 	-webkit-box-shadow: inset 0 -1px 10px 0 rgba(0, 0, 0, 0.9), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
@@ -501,7 +483,7 @@ a.more:active .more-top {
 	height: 60px;
 	content: "";
 	border-radius: 80px / 30px;
-	background-image: -webkit-gradient( linear, left bottom, left top, from(#6c0c0b), to(#ed4c4c));
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#6c0c0b), to(#ed4c4c));
 	background-image: -webkit-linear-gradient(bottom, #6c0c0b 0%, #ed4c4c 100%);
 	background-image: linear-gradient(to top, #6c0c0b 0%, #ed4c4c 100%);
 	-webkit-box-shadow: 0 10px 28px 2px rgba(0, 0, 0, 0.2), inset 0 5px 10px 0 rgba(0, 0, 0, 0.2), inset 0 2px 1px 0 rgba(255, 255, 255, 0.6), inset 0 -2px 1px 0 rgba(255, 255, 255, 0.1), inset 0 -2px 10px 5px rgba(237, 76, 76, 0.6), inset 5px 0 1px 1px rgba(255, 255, 255, 0.3);
@@ -529,67 +511,11 @@ a.more:active .more-top {
 	width: 200px;
 	height: 80px;
 	border-radius: 100px / 40px;
-	background-image: -webkit-gradient( linear, left top, right top, from(#f2f2f2), color-stop(48%, #b4b4b4), to(#767676));
-	background-image: -webkit-linear-gradient( left, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
-	background-image: linear-gradient( to right, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#f2f2f2), color-stop(48%, #b4b4b4), to(#767676));
+	background-image: -webkit-linear-gradient(left, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
+	background-image: linear-gradient(to right, #f2f2f2 0%, #b4b4b4 48%, #767676 100%);
 	-webkit-box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
 	box-shadow: 0 8px 0 #c4cacc, inset 1px -1px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-/*=====================
-ページネーション
-=====================*/
-
-.page {
-	padding: 2px;
-	display: flex;
-	justify-content: center;
-	background: rgba(31, 26, 43, 0.5);
-}
-
-.page li {
-	display: inline;
-	border-radius: 100%;
-}
-
-.activepage {
-	background: gold;
-	width: 40px;
-	height: 40px;
-	margin: 2px;
-	line-height: 40px;
-	text-align: center;
-	font-weight: bold;
-}
-
-.another {
-	background: #fff;
-	width: 40px;
-	height: 40px;
-	margin: 2px;
-	line-height: 40px;
-	text-align: center;
-	font-weight: bold;
-}
-
-.move {
-	background: #fff;
-	width: 25px;
-	height: 40px;
-	margin: 2px;
-	line-height: 40px;
-	text-align: center;
-	font-weight: bold;
-}
-
-.page li a {
-	color: #5e78c1;
-	text-decoration: none;
-}
-
-.page li a:hover {
-	background: gold;
-	border-radius: 100%;
 }
 
 .tv {
@@ -602,6 +528,18 @@ section.link {
 	margin: 0 -31px;
 	padding: 0.1em;
 	background-color: black;
+}
+
+form {
+	text-align: center;
+}
+
+.comment {
+	background: rgb(210, 210, 200);
+	max-height: 400px;
+	overflow: scroll;
+	font-size: 14px;
+	border: rgb(120, 119, 116) 5px solid;
 }
 
 section.link h2 {
@@ -713,7 +651,7 @@ ul.gim {
 	position: absolute;
 	font-size: 10px;
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.8);
 	width: 75px;
 	padding: 0;
 	margin-top: -57px;
@@ -738,6 +676,7 @@ ul.gim {
 		transform: translate3d(0, 100%, 0) skewY(12deg);
 		opacity: 0;
 	}
+
 	to {
 		transform: translate3d(0, 0, 0) skewY(0);
 		opacity: 1;
@@ -753,27 +692,33 @@ ul.gim {
 		background-position: 32% 50%;
 		border-top: #f2f7dc 5px solid;
 	}
+
 	.header-contents {
 		min-height: 75px;
 		background-size: 40px 40px;
 		background-position: 10px 50%;
 	}
+
 	.header-contents h1 {
 		padding: 15px 0 5px 60px;
 		font-size: 24px;
 	}
+
 	.header-contents h2 {
 		padding: 0 0 0 60px;
 		font-size: 18px;
 	}
+
 	.main-wrapper {
 		font-size: 16px;
 		line-height: 1.5em;
 	}
+
 	.gim li {
 		font-size: 15px;
 		padding: 10px 4px 10px 30px;
 	}
+
 	h3 {
 		position: relative;
 		display: inline-block;
@@ -786,6 +731,7 @@ ul.gim {
 		text-align: center;
 		font-size: 11px;
 	}
+
 	.main-video p {
 		font-size: 13px;
 	}
@@ -797,6 +743,7 @@ ul.gim {
 	.column {
 		display: flex;
 	}
+
 	.v2 {
 		flex-wrap: wrap;
 		width: 50%;
@@ -827,6 +774,7 @@ ul.gim {
 		background-position: center;
 		margin: -31px;
 	}
+
 	.newsimg2 {
 		background-image: url(../images/nogunona.jpg);
 		background-size: cover;
@@ -835,12 +783,15 @@ ul.gim {
 		background-position: center;
 		margin: -31px;
 	}
+
 	.news tr {
 		font-size: 10px;
 	}
+
 	.gim a {
 		font-size: 14px;
 	}
+
 	.area {
 		font-size: 14px;
 	}
