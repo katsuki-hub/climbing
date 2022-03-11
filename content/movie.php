@@ -37,6 +37,16 @@
         <h2>過去動画一覧</h2>
         <div class="items">
           <div class="item v2">
+            <h3>3月2週の道場課題その2</h3>
+            <a href="../video/b17.mp4"><img class="video" src="../images/b17.jpg" alt="3月2週の道場課題その2"></a>
+            <p>飛ばなくたって<br>リーチがあれば！！</p>
+          </div>
+          <div class="item v2">
+            <h3>3月2週の道場課題その1</h3>
+            <a href="../video/b16.mp4"><img class="video" src="../images/b16.jpg" alt="3月2週の道場課題その1"></a>
+            <p>何度も飛べば…<br>出来るようになるさ</p>
+          </div>
+          <div class="item v2">
             <h3>Barehandsへ</h3>
             <a href="../video/b15.mp4"><img class="video" src="../images/b15.jpg" alt="Barehandsへ"></a>
             <p>Barehandsへ<br>ボルダリングムービー</p>

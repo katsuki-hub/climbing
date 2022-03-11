@@ -98,8 +98,8 @@
 
         <div id="kadai" class="area">
           <ul>
-            <li><a href="dojo/3-2.php">3月2週目の道場課題の写真はこちらをクリック！！</a></li>
-            <li><a href="dojo/3-1.php">3月1週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/3-2.php">3月2週目の道場課題の写真はこちら！</a></li>
+            <li><a href="dojo/3-1.php">3月1週目の道場課題の写真はこちら！</a></li>
           </ul>
         </div><!-- /area -->
       </div><!-- /newstab -->
@@ -110,25 +110,13 @@
       <h2>新着動画</h2>
       <div class="column">
         <div class="v2">
-          <h3>Barehandsへ</h3>
-          <a href="video/b15.mp4"><img class="video smoothTrigger" src="images/b15.jpg" alt="barehandsへ"></a>
+          <h3>3月2週の道場課題その2</h3>
+          <a href="video/b17.mp4"><img class="video smoothTrigger" src="images/b17.jpg" alt="3月2週の道場課題その2"></a>
         </div>
 
         <div class="v2">
-          <h3>スラブ3級と垂壁2級</h3>
-          <a href="video/b14.mp4"><img class="video smoothTrigger" src="images/b14.jpg" alt="道場課題6月4週"></a>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="v2">
-          <h3>垂壁壁2級</h3>
-          <a href="video/b13.mp4"><img class="video smoothTrigger" src="images/b13.jpg" alt="垂壁壁2級"></a>
-        </div>
-
-        <div class="v2">
-          <h3>110度課題</h3>
-          <a href="video/b12.mp4"><img class="video smoothTrigger" src="images/b12.jpg" alt="110度課題"></a>
+          <h3>3月2週の道場課題その1</h3>
+          <a href="video/b16.mp4"><img class="video smoothTrigger" src="images/b16.jpg" alt="3月2週の道場課題その1"></a>
         </div>
       </div>
 
@@ -191,11 +179,7 @@
           echo '<span class="error">ファイルを読み込めませんでした</span>';
         }
         ?>
-<<<<<<< HEAD
         <form action="https://climber2022.site/#board"><input type="submit" value="リロード"></form>
-=======
-        <form action="#board"><input type="submit" value="リロード"></form>
->>>>>>> cdf3fab6d99beda2999f3767793a31e851961c57
       </div>
     </section>
 
