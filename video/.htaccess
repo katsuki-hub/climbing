@@ -1,6 +1,6 @@
 AuthType  Basic
 AuthName  "video-clip"
-AuthUserFile  /home/users/2/main.jp-6775f33d59c879fe/web/climbing/video/.htpasswd
+AuthUserFile  /home/users/2/main.jp-6775f33d59c879fe/web/climber2022/video/.htpasswd
 require valid-user
 
 <Files ~ "^\.ht">

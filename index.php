@@ -157,7 +157,7 @@
       </form>
 
       <?php
-      $line_num = 70; // 表示する行数
+      $line_num = 100; // 表示する行数
 
       $contents = file('data/comment.txt', FILE_IGNORE_NEW_LINES);
 
@@ -191,7 +191,7 @@
           echo '<span class="error">ファイルを読み込めませんでした</span>';
         }
         ?>
-        <form action="https://climbing.katsumaru.blog/#board"><input type="submit" value="リロード"></form>
+        <form action="https://climber2022.site/#board"><input type="submit" value="リロード"></form>
       </div>
     </section>
 
