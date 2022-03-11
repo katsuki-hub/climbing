@@ -28,6 +28,42 @@
       margin-right: 1%;
       width: 19%;
     }
+
+    .kadai ol {
+      counter-reset: number;
+      /*数字をリセット*/
+      list-style-type: none !important;
+      /*数字を一旦消す*/
+      padding: 0;
+      border-top: solid 2px black;
+      border-bottom: solid 2px black;
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .kadai ol li {
+      padding: 0.5em 0;
+      position: relative;
+      padding-left: 1.4em;
+      line-height: 1.5em;
+    }
+
+    .kadai ol li:before {
+      color: blue;
+      counter-increment: number;
+      content: counter(number) ".";
+      position: absolute;
+      left: 0;
+      font-family: 'Bradley Hand', 'Segoe Script', 'Segoe Print', sans-serif;
+      /*手書き風のフォント*/
+      font-size: 1.3em;
+      /*フォントサイズ*/
+    }
+
+    .kadai ol li a {
+      color: rgb(83, 84, 94);
+      font-weight: bold;
+      text-shadow: 0px 3px 5px 0px rgba(0, 0, 0,);
+    }
   </style>
 </head>
 
@@ -57,9 +93,16 @@
   </div>
   <div class="main-wrapper">
     <article>
-      <section>
+      <section class="kadai">
         <h2>写真一覧</h2>
+        <h3>道場課題の写真</h3>
+        <ol>
+          <li><a href="../dojo/3-2.php">3月2週目の道場課題の写真はこちらをクリック！！</a></li>
+          <li><a href="../dojo/3-1.php">3月1週目の道場課題の写真はこちらをクリック！！</a></li>
+        </ol><br>
+      </section>
 
+      <section>
         <h3>Barehandsへ</h3>
         <!-- 写真 -->
         <div class="img">
