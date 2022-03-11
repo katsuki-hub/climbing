@@ -88,9 +88,9 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【3月9日】Overhung Master Session vol.4</li>
             <li>【2月2日】95度・110度 ホールドチェンジ</li>
             <li>【1月7日】スラブ・垂壁 ホールドチェンジ</li>
-            <li>【12月27日】95度＆110度壁 マンスリー10本</li>
             <li><a href="content/olympic.php">オリンピック2021 リザルトはこちらをクリック！</a></li>
           </ul>
         </div><!-- /area -->
@@ -98,8 +98,8 @@
 
         <div id="kadai" class="area">
           <ul>
-            <li><a href="dojo/9-3.php">9月3週目の道場課題の写真はこちらをクリック！！</a></li>
-            <li><a href="dojo/6_4.php">6月4週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/3-2.php">3月2週目の道場課題の写真はこちらをクリック！！</a></li>
+            <li><a href="dojo/3-1.php">3月1週目の道場課題の写真はこちらをクリック！！</a></li>
           </ul>
         </div><!-- /area -->
       </div><!-- /newstab -->
@@ -191,7 +191,7 @@
           echo '<span class="error">ファイルを読み込めませんでした</span>';
         }
         ?>
-        <form action="https://climbing.katsumaru.blog/#board"><input type="submit" value="リロード"></form>
+        <form action="#board"><input type="submit" value="リロード"></form>
       </div>
     </section>
 
