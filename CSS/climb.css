@@ -436,6 +436,10 @@ a:hover {
 	margin-right: 8px;
 }
 
+#board li {
+	list-style: none;
+}
+
 /*=====================
 もっと見るボタン
 =====================*/

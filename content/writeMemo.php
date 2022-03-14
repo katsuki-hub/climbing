@@ -1,7 +1,7 @@
 <?php
 if (empty($_POST["memo"])) {
   //POSTされた値がないとき入力ページへリダイレクト
-  $url = "https://climbing.katsumaru.blog/#board";
+  $url = "https://climber2022.site/#board";
   header("Location:" . $url);
   exit();
 }
@@ -24,6 +24,6 @@ $result = $fileobj->fwrite($writedata); //メモを追記
 $fileobj->flock(LOCK_UN); //アンロック
 
 //メモを読むページへリダイレクト
-$url = "https://climbing.katsumaru.blog/#board";
+$url = "https://climber2022.site/#board";
 header("Location:" . $url);
 exit();
