@@ -320,15 +320,11 @@ ul {
 
 .area ul li {
 	list-style-type: none;
+	padding: 12px 0;
 }
 
 .area ul {
 	color: #fff;
-	padding: 10px 0;
-}
-
-.area li {
-	padding: 15px 0 30px 0;
 }
 
 .area a {

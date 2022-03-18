@@ -88,10 +88,11 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【3月15日】1Fマンスリー課題10本更新</li>
             <li>【3月9日】Overhung Master Session vol.4</li>
             <li>【2月2日】95度・110度 ホールドチェンジ</li>
             <li>【1月7日】スラブ・垂壁 ホールドチェンジ</li>
-            <li><a href="content/olympic.php">オリンピック2021 リザルトはこちらをクリック！</a></li>
+            <li><a href="content/olympic.php">オリンピック2021 リザルト</a></li>
           </ul>
         </div><!-- /area -->
 
