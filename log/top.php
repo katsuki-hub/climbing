@@ -40,10 +40,10 @@ if (isset($_POST["login"])) {
 
     <form action="top.php" method="POST">
       <li><label>
-          <span class="log">ログインID：</span><input type="text" name="userID">
+          <span class="log">ログインID</span><input type="text" name="userID">
         </label></li>
       <li><label>
-          <span class="log">パスワード：</span><input type="text" name="userPW">
+          <span class="log">パスワード</span><input type="text" name="userPW">
         </label></li>
       <li><input type="submit" value="ログイン" name="login"></li>
     </form>

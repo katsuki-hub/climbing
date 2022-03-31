@@ -1,3 +1,5 @@
+<?php require_once("../common/session.php"); ?>
+
 <!doctype html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 
