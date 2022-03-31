@@ -322,6 +322,7 @@ input[type="submit"]:valid {
 	color: red;
 	font-weight: bold;
 	background: #bdeaed;
+	margin: 15px;
 }
 
 .log {

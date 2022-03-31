@@ -21,17 +21,6 @@ if (!isset($_POST['id']) || ($_POST['id'] === "")) {
 if (!isset($_POST['pw']) || ($_POST['pw'] === "")) {
   $error[] = "パスワードが未入力です";
 }
-
-if (count($error) > 0) {
-  echo '<ol class="error">';
-  foreach ($error as $value) {
-    echo "<li>", $value, "</li>";
-  }
-  echo "</ol>";
-  echo "<HR>";
-  echo "<a href=", $backURL, ">戻る</a>";
-  exit();
-}
 ?>
 
 <!doctype html>
@@ -50,6 +39,19 @@ if (count($error) > 0) {
       <h2>ログイン用</h2>
     </div><!-- /.header-contents -->
   </header>
+
+  <?php
+  if (count($error) > 0) {
+    echo '<ol class="error_mg">';
+    foreach ($error as $value) {
+      echo "<li>", $value, "</li>";
+    }
+    echo "</ol>";
+    echo "<HR>";
+    echo "<a href=", $backURL, ">戻る</a>";
+    exit();
+  }
+  ?>
 
   <?php
   try {
