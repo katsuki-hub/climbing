@@ -64,11 +64,8 @@ if (!isset($_POST['pw']) || ($_POST['pw'] === "")) {
     $stm->bindValue(':id', $id, PDO::PARAM_STR);
     $stm->bindValue(':pw', $pw, PDO::PARAM_STR);
 
-    if ($stm->execute()) {
-      $stm->execute();
-    } else {
-      echo '<span class="error">追加エラーがあります！</span>';
-    };
+    $stm->execute();
+    echo "登録完了です！";
   } catch (Exception $e) {
     echo '<span class="error">エラーがありました</span><br>';
     echo $e->getMessage();
