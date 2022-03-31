@@ -335,6 +335,10 @@ input[type="submit"]:valid {
 	background: rgb(233, 177, 194);
 }
 
+.relo {
+	text-align: center;
+}
+
 /*=====================
 #NEWS
 =====================*/

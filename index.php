@@ -182,7 +182,7 @@
           echo '<span class="error">ファイルを読み込めませんでした</span>';
         }
         ?>
-        <form action="https://climber2022.site/#board"><input type="submit" value="リロード"></form>
+        <div class="relo"><a href="https://climber2022.site/#board"><button type="button">リロード</button></a></div>
       </div>
     </section>
 
