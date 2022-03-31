@@ -62,7 +62,7 @@ if (!isset($_POST['pw']) || ($_POST['pw'] === "")) {
     $sql = "INSERT INTO userdata (id, pw) VALUES (:id, :pw)";
     $stm = $pdo->prepare($sql);
     $stm->bindValue(':id', $id, PDO::PARAM_STR);
-    $stm->bindValue('pw', $pw, PDO::PARAM_STR);
+    $stm->bindValue(':pw', $pw, PDO::PARAM_STR);
 
     if ($stm->execute()) {
       $stm->execute();
