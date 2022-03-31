@@ -1,3 +1,5 @@
+<?php require_once("common/session.php"); ?>
+
 <!doctype html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 
@@ -278,7 +280,7 @@
     </section>
 
   </div><!-- /.main-wrapper -->
-  <footer><small>&copy; 2021 ボルダリング部</small></footer>
+  <footer><a href="log/top.php">test</a><small>&copy; 2021 ボルダリング部</small></footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="scripts/countdown.js"></script>
   <script src="scripts/calendar.js"></script>
