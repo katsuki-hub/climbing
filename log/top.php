@@ -11,7 +11,6 @@ if (isset($_POST["login"])) {
   }
   $error_mg = "ID か パスワードに間違いがあります。<br>もう一度入力してください！！";
 }
-
 ?>
 
 <!doctype html>
