@@ -42,14 +42,10 @@ if (isset($_POST["login"])) {
           <span class="log">ログインID</span><input type="text" name="userID">
         </label></li>
       <li><label>
-          <span class="log">パスワード</span><input type="text" name="userPW">
+          <span class="log">パスワード</span><input type="number" name="userPW">
         </label></li>
       <li><input type="submit" value="ログイン" name="login"></li>
     </form>
-
-    <div class="blank3"></div>
-    <span class="tolog"><a href="userForm.php">ログイン登録はこちらから</a></span><br>
-    <small class="log">※しばらくしたら登録画面を消します<br></small>
   </div>
 </body>
 

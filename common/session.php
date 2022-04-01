@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["userID"])) {
-  $topURL = "../log/top.php";
+  $topURL = "https://climber2022.site/log/top.php";
   header("Location: {$topURL}");
   exit();
 }

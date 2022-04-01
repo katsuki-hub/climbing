@@ -178,6 +178,15 @@ section h1::before {
 	font-style: italic;
 }
 
+h2 {
+	margin: 0;
+	color: #fff;
+	line-height: 1;
+	padding: 20px 0 10px 100px;
+	font-size: 28px;
+	text-shadow: #000 2px 0, #000 -2px 0, #000 0 -2px, #000 0 2px, #000 2px 2px, #000 -2px 2px, #000 2px -2px, #000 -2px -2px, #000 1px 2px, #000 -1px 2px, #000 1px -2px, #000 -1px -2px, #000 2px 1px, #000 -2px 1px, #000 2px -1px, #000 -2px -1px, 4px 4px 0 #000, 0 4px 0 #000;
+}
+
 section h2 {
 	position: relative;
 	text-align: center;
@@ -281,31 +290,31 @@ form li {
 }
 
 input {
-  background: rgb(215, 206, 206);
-  border-color: rgb(109, 62, 62);
-  padding: 5px;
-  margin: 10px;
-  font-size: 18px;
+	background: rgb(215, 206, 206);
+	border-color: rgb(109, 62, 62);
+	padding: 5px;
+	margin: 10px;
+	font-size: 18px;
 }
 
 select {
-  background: rgb(215, 206, 206);
-  border-color: rgb(109, 62, 62);
-  padding: 10px;
-  margin: 5px;
-  font-size: 16px;
+	background: rgb(215, 206, 206);
+	border-color: rgb(109, 62, 62);
+	padding: 10px;
+	margin: 5px;
+	font-size: 16px;
 }
 
 input[type="submit"]:valid {
-  background: rgb(0, 0, 0);
-  border-color: rgb(194, 188, 219);
-  color: #fff;
-  padding: 5px;
-  margin: 5px;
-  font-size: 20px;
+	background: rgb(0, 0, 0);
+	border-color: rgb(194, 188, 219);
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
 }
 
-.must{
+.must {
 	background: rgb(213, 145, 145);
 	padding: 5px;
 	border-radius: 40%;
