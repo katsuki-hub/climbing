@@ -38,6 +38,11 @@
       <section>
         <h2>過去動画一覧</h2>
         <div class="items">
+        <div class="item v2">
+            <h3>3級垂壁課題</h3>
+            <a href="../video/b18.mp4"><img class="video" src="../images/b18.jpg" alt="3級垂壁課題"></a>
+            <p>何度も頑張ったが<br>後日あっさり完登！</p>
+          </div>
           <div class="item v2">
             <h3>3月2週の道場課題その2</h3>
             <a href="../video/b17.mp4"><img class="video" src="../images/b17.jpg" alt="3月2週の道場課題その2"></a>

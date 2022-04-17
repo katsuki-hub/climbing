@@ -90,6 +90,7 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【4月12日】スラブ＆垂壁 ホールドチェンジ</li>
             <li>【3月15日】1Fマンスリー課題10本更新</li>
             <li>【3月9日】Overhung Master Session vol.4</li>
             <li>【2月2日】95度・110度 ホールドチェンジ</li>
@@ -113,13 +114,13 @@
       <h2>新着動画</h2>
       <div class="column">
         <div class="v2">
-          <h3>3月2週の道場課題その2</h3>
-          <a href="video/b17.mp4"><img class="video smoothTrigger" src="images/b17.jpg" alt="3月2週の道場課題その2"></a>
+          <h3>3級垂壁課題</h3>
+          <a href="video/b18.mp4"><img class="video smoothTrigger" src="images/b18.jpg" alt="3級垂壁課題"></a>
         </div>
 
         <div class="v2">
-          <h3>3月2週の道場課題その1</h3>
-          <a href="video/b16.mp4"><img class="video smoothTrigger" src="images/b16.jpg" alt="3月2週の道場課題その1"></a>
+          <h3>3月2週の道場課題その2</h3>
+          <a href="video/b17.mp4"><img class="video smoothTrigger" src="images/b17.jpg" alt="3月2週の道場課題その2"></a>
         </div>
       </div>
 
