@@ -39,6 +39,16 @@
         <h2>過去動画一覧</h2>
         <div class="items">
           <div class="item v2">
+            <h3>マンスリー8番</h3>
+            <a href="../video/b22.mp4"><img class="video" src="../images/b22.jpg" alt="マンスリー8番"></a>
+            <p>ちょっぴり難しかった<br>その課題！！</p>
+          </div>
+          <div class="item v2">
+            <h3>ゴールした？</h3>
+            <a href="../video/b21.mp4"><img class="video" src="../images/b21.jpg" alt="ゴールした？"></a>
+            <p>え?ゴールした?<br>おわったーー</p>
+          </div>
+          <div class="item v2">
             <h3>3級スラブ課題</h3>
             <a href="../video/b20.mp4"><img class="video" src="../images/b20.jpg" alt="3級スラブ課題"></a>
             <p>前回何度も失敗した<br>あの課題！！</p>

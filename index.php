@@ -113,6 +113,16 @@
     <section>
       <h2>新着動画</h2>
       <div class="column">
+      <div class="v2">
+            <h3>マンスリー8番</h3>
+            <a href="video/b22.mp4"><img class="video smoothTrigger" src="images/b22.jpg" alt="マンスリー8番"></a>
+          </div>
+
+          <div class="v2">
+            <h3>ゴールした？</h3>
+            <a href="video/b21.mp4"><img class="video smoothTrigger" src="images/b21.jpg" alt="ゴールした？"></a>
+          </div>
+
         <div class="v2">
           <h3>3級スラブ課題</h3>
           <a href="video/b20.mp4"><img class="video smoothTrigger" src="images/b20.jpg" alt="3級スラブ課題"></a>
