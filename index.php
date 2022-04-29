@@ -114,6 +114,16 @@
       <h2>新着動画</h2>
       <div class="column">
         <div class="v2">
+          <h3>3級スラブ課題</h3>
+          <a href="video/b20.mp4"><img class="video smoothTrigger" src="images/b20.jpg" alt="3級スラブ課題"></a>
+        </div>
+
+        <div class="v2">
+          <h3>休日のボルダリング</h3>
+          <a href="video/b19.mp4"><img class="video smoothTrigger" src="images/b19.jpg" alt="休日のボルダリング"></a>
+        </div>
+
+        <div class="v2">
           <h3>3級垂壁課題</h3>
           <a href="video/b18.mp4"><img class="video smoothTrigger" src="images/b18.jpg" alt="3級垂壁課題"></a>
         </div>

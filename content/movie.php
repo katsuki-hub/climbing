@@ -38,7 +38,17 @@
       <section>
         <h2>過去動画一覧</h2>
         <div class="items">
-        <div class="item v2">
+          <div class="item v2">
+            <h3>3級スラブ課題</h3>
+            <a href="../video/b20.mp4"><img class="video" src="../images/b20.jpg" alt="3級スラブ課題"></a>
+            <p>前回何度も失敗した<br>あの課題！！</p>
+          </div>
+          <div class="item v2">
+            <h3>休日のボルダリング</h3>
+            <a href="../video/b19.mp4"><img class="video" src="../images/b19.jpg" alt="休日のボルダリング"></a>
+            <p>休日の<br>ボルダリング</p>
+          </div>
+          <div class="item v2">
             <h3>3級垂壁課題</h3>
             <a href="../video/b18.mp4"><img class="video" src="../images/b18.jpg" alt="3級垂壁課題"></a>
             <p>何度も頑張ったが<br>後日あっさり完登！</p>
