@@ -58,13 +58,13 @@ if (isset($_POST["login"])) {
 
     <form action="top.php" method="POST">
       <li><label>
-          <span class="log">ログインID</span><input type="text" name="userID">
+          <span class="log">ログインID</span><br><input type="text" name="userID">
         </label></li>
       <li><label>
-          <span class="log">パスワード</span><input type="number" name="userPW">
+          <span class="log">パスワード</span><br><input type="number" name="userPW">
         </label></li>
       <li><label>
-          <span class="log">ログイン情報保存</span><input type="checkbox" value="on" name="save">
+          <span class="log">ログイン情報保存</span><br><input type="checkbox" value="on" name="save">
         </label></li>
       <li><input type="submit" value="ログイン" name="login"></li>
     </form>
