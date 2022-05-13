@@ -1,6 +1,14 @@
 <?php
 session_start();
 
+$login = $_POST["login"];
+$userID = $_POST["userID"];
+$save = $_POST["save"];
+
+if ($save == 'on') {
+  setcookie('login', $login, time() + 60 * 60 * 24 * 14);
+}
+
 $error_mg = "";
 if (isset($_POST["login"])) {
   if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
@@ -43,6 +51,9 @@ if (isset($_POST["login"])) {
         </label></li>
       <li><label>
           <span class="log">パスワード</span><input type="number" name="userPW">
+        </label></li>
+      <li><label>
+          <span class="log">ログイン情報保存</span><input type="checkbox" value="on" name="save">
         </label></li>
       <li><input type="submit" value="ログイン" name="login"></li>
     </form>
