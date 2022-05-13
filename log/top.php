@@ -1,12 +1,18 @@
 <?php
 session_start();
 
-$login = $_POST["login"];
 $userID = $_POST["userID"];
+$userPW = $_POST["userPW"];
 $save = $_POST["save"];
 
 if ($save == 'on') {
-  setcookie('login', $login, time() + 60 * 60 * 24 * 14);
+  setcookie('userID', $userID, time() + 60 * 60 * 24 * 14);
+  setcookie('userPW', $userPW, time() + 60 * 60 * 24 * 14);
+}
+
+if ($_COOKIE['userID'] != "") {
+  $_POST['userID'] = $_COOKIE['userID'];
+  $_POST['userPW'] = $_COOKIE['userPW'];
 }
 
 $error_mg = "";
