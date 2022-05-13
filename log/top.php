@@ -6,7 +6,7 @@ $login_index = "../index.php";
 if ($_COOKIE["userID"] != "") {
   $_POST["userID"] = $_COOKIE["userID"];
   $_POST["userPW"] = $_COOKIE["userPW"];
-  $_POST["save"] = $_COOKIE["on"];
+  $_POST["save"] = "on";
 }
 
 if (isset($_POST)) {
