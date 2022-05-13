@@ -5,8 +5,8 @@ $_SESSION = array();
 session_destroy();
 
 # Cookie情報も削除
-setcookie('userID', '', time() - 420000);
-setcookie('userPW', '', time() - 420000);
+setcookie('userID', '', time() - 1200);
+setcookie('userPW', '', time() - 1200);
 ?>
 
 <!doctype html>
