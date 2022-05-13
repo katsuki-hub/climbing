@@ -1,7 +1,12 @@
 <?php
 session_start();
+# セッション情報を削除
 $_SESSION = array();
 session_destroy();
+
+# Cookie情報も削除
+setcookie('userID', '', time() - 420000);
+setcookie('userPW', '', time() - 420000);
 ?>
 
 <!doctype html>
