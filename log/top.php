@@ -3,15 +3,9 @@ session_start();
 
 $login_index = "../index.php";
 
-if ($_COOKIE["userID"] != "") {
-  $_POST["userID"] = $_COOKIE["userID"];
-  $_POST["userPW"] = $_COOKIE["userPW"];
-  $_POST["save"] = "on";
-}
-
-if (isset($_POST)) {
-  if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
-    $_SESSION["userID"] = $_POST["userID"];
+if (isset($_COOKIE["userID"])) {
+  if ($_COOKIE["userID"] == "noboru" && $_COOKIE["userPW"] == "2022") {
+    $_SESSION["userID"] = $_COOKIE["userID"];
     header("Location:{$login_index}");
     exit();
   }
@@ -22,8 +16,8 @@ if (isset($_POST["login"])) {
   if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
     $_SESSION["userID"] = $_POST["userID"];
     if ($_POST["save"] == "on") {
-      setcookie("userID", $_POST["userID"], time() + 60 * 60 * 24);
-      setcookie("userPW", $_POST["userPW"], time() + 60 * 60 * 24);
+      setcookie("userID", $_POST["userID"], time() + 60 * 60 * 24 * 14);
+      setcookie("userPW", $_POST["userPW"], time() + 60 * 60 * 24 * 14);
     }
     header("Location:{$login_index}");
     exit();
@@ -69,6 +63,7 @@ if (isset($_POST["login"])) {
       <li><input type="submit" value="ログイン" name="login"></li>
     </form>
   </div>
+  <span class="error_mg">※ログイン情報の保存期間は2週間です</span>
 </body>
 
 </html>
