@@ -1,16 +1,17 @@
 <?php
 session_start();
 
-if ($_COOKIE['userID'] != '') {
-  $_POST['userID'] = $_COOKIE['userID'];
-  $_POST['userPW'] = $_COOKIE['userPW'];
-  $_POST['save'] = $_COOKIE['on'];
+$login_index = "../index.php";
+
+if ($_COOKIE["userID"] != "") {
+  $_POST["userID"] = $_COOKIE["userID"];
+  $_POST["userPW"] = $_COOKIE["userPW"];
+  $_POST["save"] = $_COOKIE["on"];
 }
 
 if (isset($_POST)) {
   if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
     $_SESSION["userID"] = $_POST["userID"];
-    $login_index = "../index.php";
     header("Location:{$login_index}");
     exit();
   }
@@ -20,11 +21,10 @@ $error_mg = "";
 if (isset($_POST["login"])) {
   if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
     $_SESSION["userID"] = $_POST["userID"];
-    if ($_POST['save'] == 'on') {
-      setcookie('userID', $_POST['userID'], time() + 60 * 60 * 24);
-      setcookie('userPW', $_POST['userPW'], time() + 60 * 60 * 24);
+    if ($_POST["save"] == "on") {
+      setcookie("userID", $_POST["userID"], time() + 60 * 60 * 24);
+      setcookie("userPW", $_POST["userPW"], time() + 60 * 60 * 24);
     }
-    $login_index = "../index.php";
     header("Location:{$login_index}");
     exit();
   }
