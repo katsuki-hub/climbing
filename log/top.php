@@ -7,7 +7,7 @@ if ($_COOKIE['userID'] != '') {
   $_POST['save'] = $_COOKIE['on'];
 }
 
-if (!empty($_POST)) {
+if (isset($_POST)) {
   if ($_POST["userID"] == "noboru" && $_POST["userPW"] == "2022") {
     $_SESSION["userID"] = $_POST["userID"];
     $login_index = "../index.php";
