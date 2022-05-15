@@ -51,9 +51,42 @@
       </ul>
 
       <h2>others</h2>
-
-
-
+      <ul class="gallery">
+        <li><a href="../images/camp/c001.jpg" data-lightbox="camp"><img src="../images/camp/c001.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c002.jpg" data-lightbox="camp"><img src="../images/camp/c002.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c003.jpg" data-lightbox="camp"><img src="../images/camp/c003.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c004.jpg" data-lightbox="camp"><img src="../images/camp/c004.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c005.jpg" data-lightbox="camp"><img src="../images/camp/c005.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c006.jpg" data-lightbox="camp"><img src="../images/camp/c006.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c007.jpg" data-lightbox="camp"><img src="../images/camp/c007.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c008.jpg" data-lightbox="camp"><img src="../images/camp/c008.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c009.jpg" data-lightbox="camp"><img src="../images/camp/c009.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c010.jpg" data-lightbox="camp"><img src="../images/camp/c010.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c011.jpg" data-lightbox="camp"><img src="../images/camp/c011.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c012.jpg" data-lightbox="camp"><img src="../images/camp/c012.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c013.jpg" data-lightbox="camp"><img src="../images/camp/c013.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c014.jpg" data-lightbox="camp"><img src="../images/camp/c014.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c015.jpg" data-lightbox="camp"><img src="../images/camp/c015.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c016.jpg" data-lightbox="camp"><img src="../images/camp/c016.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c017.jpg" data-lightbox="camp"><img src="../images/camp/c017.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c018.jpg" data-lightbox="camp"><img src="../images/camp/c018.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c019.jpg" data-lightbox="camp"><img src="../images/camp/c019.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c020.jpg" data-lightbox="camp"><img src="../images/camp/c020.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c021.jpg" data-lightbox="camp"><img src="../images/camp/c021.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c022.jpg" data-lightbox="camp"><img src="../images/camp/c022.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c023.jpg" data-lightbox="camp"><img src="../images/camp/c023.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c024.jpg" data-lightbox="camp"><img src="../images/camp/c024.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c025.jpg" data-lightbox="camp"><img src="../images/camp/c025.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c026.jpg" data-lightbox="camp"><img src="../images/camp/c026.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c027.jpg" data-lightbox="camp"><img src="../images/camp/c027.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c028.jpg" data-lightbox="camp"><img src="../images/camp/c028.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c029.jpg" data-lightbox="camp"><img src="../images/camp/c029.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c030.jpg" data-lightbox="camp"><img src="../images/camp/c030.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c031.jpg" data-lightbox="camp"><img src="../images/camp/c031.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c032.jpg" data-lightbox="camp"><img src="../images/camp/c032.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c033.jpg" data-lightbox="camp"><img src="../images/camp/c033.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/camp/c034.jpg" data-lightbox="camp"><img src="../images/camp/c034.jpg" alt="Photo Gallery"></a></li>
+      </ul>
 
       <div class="blank3"></div>
     </section>
