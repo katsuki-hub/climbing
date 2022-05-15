@@ -6,67 +6,7 @@
 <head>
   <?php $title = "活動写真" ?>
   <?php require_once "../common/head.php"; ?>
-  <style>
-    section img {
-      max-width: 100%;
-    }
-
-    .img {
-      text-align: center;
-      margin: 0 auto;
-      width: 100%;
-    }
-
-    .img ul {
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-
-      list-style-type: none;
-    }
-
-    .img li {
-      float: left;
-      margin-right: 1%;
-      width: 19%;
-    }
-
-    .kadai ol {
-      counter-reset: number;
-      /*数字をリセット*/
-      list-style-type: none !important;
-      /*数字を一旦消す*/
-      padding: 0;
-      border-top: solid 2px black;
-      border-bottom: solid 2px black;
-      background: rgba(255, 255, 255, 0.8);
-    }
-
-    .kadai ol li {
-      padding: 0.5em 0;
-      position: relative;
-      padding-left: 1.4em;
-      line-height: 1.5em;
-    }
-
-    .kadai ol li:before {
-      color: blue;
-      counter-increment: number;
-      content: counter(number) ".";
-      position: absolute;
-      left: 0;
-      font-family: 'Bradley Hand', 'Segoe Script', 'Segoe Print', sans-serif;
-      /*手書き風のフォント*/
-      font-size: 1.3em;
-      /*フォントサイズ*/
-    }
-
-    .kadai ol li a {
-      color: rgb(83, 84, 94);
-      font-weight: bold;
-      text-shadow: 0px 3px 5px 0px rgba(0, 0, 0,);
-    }
-  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -94,52 +34,61 @@
     </ol>
   </div>
   <div class="main-wrapper">
-    <article>
-      <section class="kadai">
-        <h2>写真一覧</h2>
-        <h3>道場課題の写真</h3>
-        <ol>
-          <li><a href="../dojo/3-2.php">3月2週目の道場課題の写真はこちら！</a></li>
-          <li><a href="../dojo/3-1.php">3月1週目の道場課題の写真はこちら！</a></li>
-        </ol><br>
-      </section>
+    <div class="frame">
+      ※写真をクリックするとスライドショー出来ます
+    </div>
+    <section>
+      <h2>ボルダリング</h2>
+      <ul class="gallery">
+        <li><a href="../images/bouldering/b001.jpg" data-lightbox="photo"><img src="../images/bouldering/b001.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b002.jpg" data-lightbox="photo"><img src="../images/bouldering/b002.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b003.jpg" data-lightbox="photo"><img src="../images/bouldering/b003.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b004.jpg" data-lightbox="photo"><img src="../images/bouldering/b004.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b005.jpg" data-lightbox="photo"><img src="../images/bouldering/b005.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b006.jpg" data-lightbox="photo"><img src="../images/bouldering/b006.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b007.jpg" data-lightbox="photo"><img src="../images/bouldering/b007.jpg" alt="Photo Gallery"></a></li>
+        <li><a href="../images/bouldering/b008.jpg" data-lightbox="photo"><img src="../images/bouldering/b008.jpg" alt="Photo Gallery"></a></li>
+      </ul>
 
-      <section>
-        <h3>Barehandsへ</h3>
-        <!-- 写真 -->
-        <div class="img">
-          <div>
-            <img src="../images/picture/0801.jpg" id="bigimg2">
-          </div>
-          <ul>
-            <li><img src="../images/picture/0801.jpg" class="thumb2" data-image="../images/picture/0801.jpg"></li>
-            <li><img src="../images/picture/0802.jpg" class="thumb2" data-image="../images/picture/0802.jpg"></li>
-            <li><img src="../images/picture/0803.jpg" class="thumb2" data-image="../images/picture/0803.jpg"></li>
-            <li><img src="../images/picture/0804.jpg" class="thumb2" data-image="../images/picture/0804.jpg"></li>
-            <li><img src="../images/picture/0805.jpg" class="thumb2" data-image="../images/picture/0805.jpg"></li>
-          </ul>
-        </div>
-        <div class="blank3"></div>
-        <h3>2021年 夏</h3>
-        <!-- 写真 -->
-        <div class="img">
-          <div>
-            <img src="../images/picture/0601.jpg" id="bigimg">
-          </div>
-          <ul>
-            <li><img src="../images/picture/0601.jpg" class="thumb" data-image="../images/picture/0601.jpg"></li>
-            <li><img src="../images/picture/0602.jpg" class="thumb" data-image="../images/picture/0602.jpg"></li>
-            <li><img src="../images/picture/0603.jpg" class="thumb" data-image="../images/picture/0603.jpg"></li>
-            <li><img src="../images/picture/0604.jpg" class="thumb" data-image="../images/picture/0604.jpg"></li>
-            <li><img src="../images/picture/0605.jpg" class="thumb" data-image="../images/picture/0605.jpg"></li>
-          </ul>
-        </div>
-        <div class="blank3"></div>
-      </section>
-    </article>
+      <h2>others</h2>
+
+
+
+
+      <div class="blank3"></div>
+    </section>
+
   </div><!-- /.main-wrapper -->
   <footer><small>&copy; 2021 ボルダリング部</small></footer>
-  <script src="../scripts/images.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+  <script>
+    lightbox.option({
+      'wrapAround': true,
+      'albumLabel': ' %1 / total %2 '
+    })
+
+
+
+    $(window).on('load', function() {
+      slideAnime();
+    });
+
+    function galleryAnime() {
+      $('.gallery li').each(function() {
+        var elemPos = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll >= elemPos - windowHeight) {
+          $(this).addClass('flipLeft');
+        }
+      });
+    }
+
+    $(window).scroll(function() {
+      galleryAnime();
+    });
+  </script>
 </body>
 
 </html>

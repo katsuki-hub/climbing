@@ -1,5 +1,4 @@
 <!-- Google Tag Manager -->
-<!-- Google Tag Manager -->
 <script>
   (function(w, d, s, l, i) {
     w[l] = w[l] || [];
@@ -17,14 +16,13 @@
   })(window, document, 'script', 'dataLayer', 'GTM-NKLQ3MH');
 </script>
 <!-- End Google Tag Manager -->
-<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name=”robots” content=”noindex”>
 <title><?= $title ?></title>
 <meta name="description" content="ボルダリング部の活動映像集ページです！">
-<link href="../css/climb.css?v=20210921" rel="stylesheet" type="text/css">
+<link href="../css/climb.css?v=20210515" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/x-icon" href="../favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="../android-touch-icon.png">

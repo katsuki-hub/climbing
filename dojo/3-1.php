@@ -35,7 +35,7 @@
   <div id="bread">
     <ol>
       <li><a href="../index.php">HOME</a></li>
-      <li><a href="../picture.html">ピクチャ</a></li>
+      <li><a href="../picture.php">ピクチャ</a></li>
     </ol>
   </div>
   <div class="main-video">

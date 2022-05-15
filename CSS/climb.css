@@ -507,6 +507,34 @@ a:hover {
 }
 
 /*=====================
+画像
+=====================*/
+
+section img {
+	max-width: 100%;
+}
+
+.img {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.img ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.img li {
+	float: left;
+	margin-right: 1%;
+	width: 19%;
+}
+
+/*=====================
 もっと見るボタン
 =====================*/
 
@@ -727,6 +755,64 @@ ul.gim {
 	margin-top: -57px;
 	text-align: center;
 	line-height: 1.5em;
+}
+
+/*=====================
+ギャラリー一覧
+=====================*/
+
+.gallery {
+  columns: 4;
+  /*段組みの数*/
+  padding: 0 15px;
+  /*ギャラリー左右に余白をつける*/
+  margin: 0;
+}
+
+.gallery li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+@media only screen and (max-width: 850px) {
+  .gallery {
+    columns: 3;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery {
+    columns: 2;
+  }
+}
+
+/*=====================
+ギャラリーの画像を出現させるアニメーション
+=====================*/
+
+.flipLeft {
+  animation-name: flipLeft;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  perspective-origin: left center;
+  opacity: 0;
+}
+
+@keyframes flipLeft {
+  from {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(50deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+    opacity: 1;
+  }
 }
 
 /*=====================

@@ -28,7 +28,7 @@
   <meta name=”robots” content=”noindex”>
   <title>ボルダリング部</title>
   <meta name="description" content="ボルダリング部の活動映像集ページです！">
-  <link href="css/climb.css?v=20220114" rel="stylesheet" type="text/css">
+  <link href="css/climb.css?v=20220515" rel="stylesheet" type="text/css">
   <link href="css/calendar.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -90,6 +90,7 @@
 
         <div id="new" class="area">
           <ul>
+            <li>【5月3日】95度・110度 ホールドチェンジ</li>
             <li>【4月12日】スラブ＆垂壁 ホールドチェンジ</li>
             <li>【3月15日】1Fマンスリー課題10本更新</li>
             <li>【3月9日】Overhung Master Session vol.4</li>
@@ -209,6 +210,34 @@
         ?>
         <div class="relo"><a href="https://climber2022.site/#board"><button type="button">リロード</button></a></div>
       </div>
+    </section>
+
+    <div class="blank3"></div>
+
+    <section>
+      <h2>活動写真</h2>
+      <div class="img">
+        <div>
+          <img src="images/picture/0801.jpg" id="bigimg">
+        </div>
+        <ul>
+          <li><img src="images/picture/0801.jpg" class="thumb" data-image="images/picture/0801.jpg"></li>
+          <li><img src="images/picture/0802.jpg" class="thumb" data-image="images/picture/0802.jpg"></li>
+          <li><img src="images/picture/0803.jpg" class="thumb" data-image="images/picture/0803.jpg"></li>
+          <li><img src="images/picture/0804.jpg" class="thumb" data-image="images/picture/0804.jpg"></li>
+          <li><img src="images/picture/0805.jpg" class="thumb" data-image="images/picture/0805.jpg"></li>
+          <li><img src="images/picture/0601.jpg" class="thumb" data-image="images/picture/0601.jpg"></li>
+          <li><img src="images/picture/0602.jpg" class="thumb" data-image="images/picture/0602.jpg"></li>
+          <li><img src="images/picture/0603.jpg" class="thumb" data-image="images/picture/0603.jpg"></li>
+          <li><img src="images/picture/0604.jpg" class="thumb" data-image="images/picture/0604.jpg"></li>
+          <li><img src="images/picture/0605.jpg" class="thumb" data-image="images/picture/0605.jpg"></li>
+        </ul>
+      </div><br><br>
+      <!-- 過去動画ボタン -->
+      <a class="more" href="content/picture.php">
+        <span class="more-bottom"></span>
+        <span class="more-top"><span>ピクチャへ</span></span>
+      </a>
     </section>
 
     <div class="blank3"></div>
