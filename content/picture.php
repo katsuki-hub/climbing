@@ -7,6 +7,11 @@
   <?php $title = "活動写真" ?>
   <?php require_once "../common/head.php"; ?>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    .main-wrapper {
+      padding: 10px 10px;
+    }
+  </style>
 </head>
 
 <body>
