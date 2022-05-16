@@ -14,7 +14,7 @@
   </style>
 </head>
 
-<body>
+<body onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;">
   <?php require_once "../common/bodyTag.php"; ?>
   <header>
     <div class="header-contents">

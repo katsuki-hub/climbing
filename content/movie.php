@@ -9,7 +9,7 @@
   <link href="../css/page.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="allmovie">
+<body class="allmovie" onselectstart="return false;" onmousedown="return false;" oncontextmenu="return false;">
   <?php require_once "../common/bodyTag.php"; ?>
   <header>
     <div class="header-contents">
