@@ -114,6 +114,14 @@
     <section>
       <h2>新着動画</h2>
       <div class="column">
+
+        <div class="v2">
+          <h3>BareHandsへ</h3>
+          <a href="video/b23.mp4"><img class="video smoothTrigger" src="images/b23.jpg" alt="BareHandsへ"></a>
+        </div>
+      </div>
+
+      <div class="column">
         <div class="v2">
           <h3>マンスリー8番</h3>
           <a href="video/b22.mp4"><img class="video smoothTrigger" src="images/b22.jpg" alt="マンスリー8番"></a>
@@ -134,18 +142,6 @@
         <div class="v2">
           <h3>休日のボルダリング</h3>
           <a href="video/b19.mp4"><img class="video smoothTrigger" src="images/b19.jpg" alt="休日のボルダリング"></a>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="v2">
-          <h3>3級垂壁課題</h3>
-          <a href="video/b18.mp4"><img class="video smoothTrigger" src="images/b18.jpg" alt="3級垂壁課題"></a>
-        </div>
-
-        <div class="v2">
-          <h3>3月2週の道場課題その2</h3>
-          <a href="video/b17.mp4"><img class="video smoothTrigger" src="images/b17.jpg" alt="3月2週の道場課題その2"></a>
         </div>
       </div>
 

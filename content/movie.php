@@ -39,6 +39,11 @@
         <h2>過去動画一覧</h2>
         <div class="items">
           <div class="item v2">
+            <h3>BareHandsへ</h3>
+            <a href="../video/b23.mp4"><img class="video" src="../images/b23.jpg" alt="BareHandsへ"></a>
+            <p>BareHands 2022年5月<br>様々な課題へ</p>
+          </div>
+          <div class="item v2">
             <h3>マンスリー8番</h3>
             <a href="../video/b22.mp4"><img class="video" src="../images/b22.jpg" alt="マンスリー8番"></a>
             <p>ちょっぴり難しかった<br>その課題！！</p>
